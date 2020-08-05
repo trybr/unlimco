@@ -7,39 +7,26 @@ body
 	min-width: 320px
 	position: relative
 	line-height: 1.65
-	font-family: 'Roboto', sans-serif
+	font-family: 'Gilroy' , sans-serif
 	overflow-x: hidden
 	background: #ffffff
 
+.btn-outline
+	border: 1px solid #ffffff
+	background: none
 
-@media (max-width: 1139px)
+.btn-blue
+	background: #0f3af1
+
+
+@media (max-width: 1900px)
 	.container 
-		max-width: 768px
+		max-width: 1410px
 
 // components
-@import "components/general.sass"
+@import "_fonts.sass"
 @import "components/header.sass"
-@import "components/banner.sass"
-@import "components/advantages.sass"
-@import "components/services-popular.sass"
-@import "components/specialists.sass"
-@import "components/help-block.sass"
-@import "components/reviews.sass"
-@import "components/news.sass"
-@import "components/articles.sass"
 @import "components/about.sass"
-@import "components/contacts.sass"
-@import "components/footer.sass"
-
-@import "components/breadcrumbs.sass"
-@import "components/content.sass"
-@import "components/header-sticky.sass"
-@import "components/pushy-menu.sass"
-@import "components/popups.sass"
-
-@import "components/search-page.sass"
-@import "components/documents.sass"
-
 
 @import "../../node_modules/bootstrap/dist/css/bootstrap.css"
 @import "../../node_modules/swiper/dist/css/swiper.min.css"

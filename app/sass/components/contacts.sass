@@ -1,0 +1,101 @@
+.contacts
+    .contacts-info
+        .contacts-items
+            width: 50%
+            float: left
+            .contacts-item
+                padding-left: 15px
+                padding-top: 25px
+                padding-bottom: 15px
+                background: #F9F9F9
+                border-radius: 3px 0px 0px 0px
+                border-bottom: 1px solid #F2F2F2
+                position: relative
+                cursor: pointer
+                &.active
+                    background: #F6FBFF
+                    .item__arrow
+                        display: none
+                        &.item__arrow-active
+                            display: block
+                .item__arrow-active
+                    display: none
+                    opacity: 0.6
+                &:hover
+                    background: #F6FBFF
+                    .item__arrow
+                        display: none
+                        &.item__arrow-active
+                            display: block
+                &:last-child
+                    border-bottom: 0px
+                    border-radius: 3px 0px 0px 3px
+                .item__title
+                    font-style: normal
+                    font-weight: bold
+                    font-size: 18px
+                    color: #1D2029
+                    margin: 0px
+                    margin-bottom: 10px
+                p
+                    font-style: normal
+                    font-weight: normal
+                    font-size: 16px
+                    line-height: 30px
+                    color: #1D2029
+                    margin: 0px
+                    margin-bottom: 5px
+                    a
+                        color: #1D2029
+                .item__arrow
+                    position: absolute
+                    top: 50%
+                    right: 15px
+                    z-index: 1
+
+        .contacts-map
+            width: 50%
+            float: left
+            height: 353px
+            overflow: hidden
+            border-radius: 0px 3px 3px 0px
+            .contacts-map-item
+                display: none
+                &.active
+                    display: block
+
+
+@media only screen and (max-width : 1139px)
+    .contacts
+        .contacts-info
+            .contacts-items
+                width: 100%
+                float: none
+            .contacts-map
+                width: 100%
+                float: none
+                height: 353px
+
+
+@media only screen and (max-width : 767px)
+    .contacts 
+        .col-contacts-info
+            padding: 0px
+        .contacts-info 
+            .contacts-items 
+                width: 100%
+                float: none
+                .contacts-item 
+                    .item__title
+                        font-size: 16px
+                        width: 80%
+                        line-height: 30px
+                    p
+                        font-size: 14px
+                        width: 80%
+                        display: block
+                        line-height: 30px
+                .contacts-map
+                    width: 100%
+                    float: none
+                    height: 353px

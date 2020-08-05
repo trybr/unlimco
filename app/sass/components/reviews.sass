@@ -1,0 +1,207 @@
+.reviews
+    .reviews-items
+        padding: 50px 0px
+        height: 380px
+        background: #FFFFFF
+        border: 1px solid #EDEDED
+        box-sizing: border-box
+        box-shadow: 0 0 10px rgba(0,0,0,0.05)
+        border-radius: 3px
+        overflow: hidden
+        .swiper-button-rev-next
+            width: 50px
+            height: 50px
+            background: #ffffff
+            box-shadow: 0 0 10px rgba(0,0,0,0.05)
+            border-radius: 3px
+            text-align: center
+            top: 50%
+            right: -10px
+            transition: all 0.2s
+            outline: none
+            &:hover
+                box-shadow: 0 0 10px rgba(0,0,0,0.05)
+                background: #FCFCFC
+            svg
+                margin-top: 15px
+
+        .swiper-button-rev-prev
+            width: 50px
+            height: 50px
+            background: #ffffff
+            box-shadow: 0 0 10px rgba(0,0,0,0.05)
+            border-radius: 3px
+            text-align: center
+            top: 50%
+            left: -10px
+            transition: all 0.2s
+            outline: none
+            &:hover
+                box-shadow: 0 0 10px rgba(0,0,0,0.05)
+                background: #FCFCFC
+            svg
+                margin-top: 15px
+        .reviews-item
+            .item__photo
+                width: 220px
+                height: 220px
+                overflow: hidden
+                float: left
+                margin-left: 80px
+                margin-right: 50px
+                border-radius: 50%
+                .photo__img
+                    width: 220px
+                    height: 220px
+                    object-fit: cover
+                    max-width: 220px
+                    max-height: 220px
+            .item-info
+                float: left
+                width: 65%
+                // padding-top: 25px
+                .info-fio
+                    margin-bottom: 30px
+                    .item__fio
+                        font-style: normal
+                        font-weight: 500
+                        font-size: 22px
+                        color: #1D2029
+                        margin-right: 25px
+                        float: left
+                    .item__date
+                        font-style: normal
+                        font-weight: normal
+                        font-size: 14px
+                        color: #979797
+                        float: left
+                        margin-top: 8px
+                .item__text
+                    font-style: normal
+                    font-weight: normal
+                    font-size: 16px
+                    line-height: 30px
+                    color: #1D2029
+                    margin-bottom: 30px
+                    height: 140px
+                    overflow: hidden
+
+                .item__more__link
+                    font-style: normal
+                    font-weight: normal
+                    font-size: 16px
+                    line-height: 30px
+                    text-decoration: underline
+                    color: #5084B7
+                    cursor: pointer
+                    border-bottom: 1px solid #5084B7
+                    transition: all 0.2s
+                    text-decoration: none
+                    display: inline
+                    &:hover
+                        border-bottom: 1px solid transparent
+
+@media only screen and (max-width : 1139px)
+    .reviews
+        .reviews-items
+            padding: 50px 0px
+            min-height: auto
+            height: auto
+            .swiper-button-rev-next
+                top: 50%
+                right: 5px
+            .swiper-button-rev-prev
+                top: 50%
+                left: 5px
+            .reviews-item
+                .item__photo
+                    float: none
+                    margin-left: auto
+                    margin-right: auto
+                    margin-bottom: 25px
+                .item-info
+                    float: none
+                    width: 85%
+                    margin: 0 auto
+                    text-align: center
+                    .info-fio
+                        margin-bottom: 25px
+                        text-align: center
+                        .item__fio
+                            font-size: 20px
+                            margin-right: 0px
+                            float: none
+                        .item__date
+                            font-size: 14px
+                            float: none
+                            margin-top: 15px
+                    .item__text
+                        font-size: 16px
+                        text-align: center
+                        height: auto
+
+                    .item__more__link
+                        font-style: normal
+                        font-weight: normal
+                        font-size: 16px
+                        line-height: 30px
+                        text-decoration: underline
+                        color: #5084B7
+                        cursor: pointer
+                        border-bottom: 1px solid #5084B7
+                        transition: all 0.2s
+                        text-decoration: none
+                        display: inline
+                        &:hover
+                            border-bottom: 1px solid transparent
+
+
+@media only screen and (max-width : 767px)
+    .reviews
+        .reviews-items
+            padding: 50px 0px
+            min-height: auto
+            height: auto
+            .reviews-item
+                .item-info
+                    .info-fio
+                        .item__fio
+                            font-size: 18px
+                            width: 50%
+                            text-align: center
+                            margin: 0 auto
+                        .item__text
+                            font-size: 14px
+                    .item__more__link
+                        font-size: 14px
+            .swiper-button-rev-next
+                top: 50%
+                right: 5px
+            .swiper-button-rev-prev
+                top: 50%
+                left: 5px
+
+
+@media only screen and (max-width : 375px)
+    .reviews
+        .reviews-items
+            padding: 50px 0px
+            min-height: auto
+            height: auto
+            .reviews-item
+                .item-info
+                    .info-fio
+                        .item__fio
+                            font-size: 18px
+                            width: 50%
+                            text-align: center
+                            margin: 0 auto
+                        .item__text
+                            font-size: 14px
+            .swiper-button-rev-next
+                top: 40%
+                right: 5px
+            .swiper-button-rev-prev
+                top: 40%
+                left: 5px
+            

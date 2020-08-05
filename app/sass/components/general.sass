@@ -1,0 +1,179 @@
+.mb-90
+    margin-bottom: 90px
+
+.mt-90
+    margin-top: 90px
+
+.to-top-btn
+    position: fixed
+    right: 30px
+    bottom: 200px
+    z-index: 999
+    transition: opacity 0.2s ease-out
+    opacity: 0
+    cursor: pointer
+    background: #5084B7
+    border-radius: 50%
+    text-align: center
+    width: 60px
+    height: 60px
+    transition: all 0.2s
+    svg
+        margin: 24px 0px
+    &.show
+        opacity: 1
+    &:hover
+        background: #5E9BD8
+
+.request-call-btn
+    position: fixed
+    right: 30px
+    bottom: 100px
+    z-index: 999
+    transition: opacity 0.2s ease-out
+    opacity: 0
+    cursor: pointer
+    background: #5084B7
+    border-radius: 50%
+    text-align: center
+    width: 60px
+    height: 60px
+    transition: all 0.2s
+    animation-name: btnPulse
+    -webkit-animation-name: btnPulse
+    animation-duration: 3s
+    -webkit-animation-duration: 3s
+    animation-iteration-count: infinite
+    -webkit-animation-iteration-count: infinite
+    animation-timing-function: linear
+    -webkit-animation-timing-function: linear
+    animation-delay: 0s
+    -webkit-animation-delay: 0s
+    @keyframes btnPulse
+        0%
+            box-shadow: 0 0 0 0 rgba(80, 132, 183, 0.5)
+        
+        70%
+            box-shadow: 0 0 0 10px rgba(0, 0, 0, 0)
+        
+        100%
+            box-shadow: 0 0 0 0 rgba(0, 0, 0, 0)
+    &:hover
+        background: #5E9BD8
+    &.show
+        opacity: 1
+    svg
+        margin: 18px 0px
+    a
+        display: block
+        width: 100%
+        height: 100%
+
+.orange-btn
+    background: #F39C12
+    text-decoration: none !important
+    transition: all 0.2s
+    &:hover
+        background: #FFA414 !important
+
+.blue-btn
+    background: #5084B7
+    text-decoration: none !important
+    transition: all 0.2s
+    &:hover
+        background: #5E9BD8
+
+.block
+    .block-title-wrapper
+        margin-bottom: 60px
+        .block__title
+            float: left
+            font-style: normal
+            font-weight: bold
+            font-size: 32px
+            color: #1D2029
+            margin: 0px
+            margin-right: 30px
+            .title--main
+                display: block
+            .title--mobile
+                display: none
+        .block__link
+            float: left
+            margin-top: 10px
+            text-decoration: none
+            .link__text
+                font-style: normal
+                font-weight: normal
+                font-size: 16px
+                color: #5084B7
+                margin-right: 10px
+            &:hover
+                .link__text
+                    margin-right: 12px
+                    border-bottom: 1px solid #5084B7
+
+
+@media only screen and (max-width : 1139px)
+    .to-top-btn
+        display: none !important
+
+    .mb-90
+        margin-bottom: 60px
+
+    .block
+        .block-title-wrapper
+            margin-bottom: 30px
+            .block__title
+                float: left
+                font-size: 28px
+                margin: 0px
+                margin-right: 0px
+            .block__link
+                float: right
+                margin-top: 5px
+
+@media only screen and (max-width : 767px)
+    .to-top-btn
+        display: none !important
+
+    .mb-90
+        margin-bottom: 60px
+
+    .block
+        .block-title-wrapper
+            margin-bottom: 15px
+            .block__title
+                float: left
+                font-size: 20px
+                margin: 0px
+                margin-right: 0px
+                .title--main
+                    display: none
+                .title--mobile
+                    display: block
+            .block__link
+                float: right
+                margin-top: 0px
+
+
+@media only screen and (max-width : 320px)
+    .to-top-btn
+        display: none !important
+
+    .mb-90
+        margin-bottom: 60px
+
+    .block
+        .block-title-wrapper
+            margin-bottom: 15px
+            .block__title
+                float: left
+                font-size: 20px
+                margin: 0px
+                margin-right: 0px
+            .block__link
+                float: right
+                margin-top: 0px
+                .link__text
+                    font-size: 14px

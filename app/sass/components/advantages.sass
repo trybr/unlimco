@@ -1,0 +1,82 @@
+.advantages
+    height: 120px
+    background: #FFFFFF
+    box-shadow: 0 0 10px rgba(0,0,0,0.05)
+    .advantages-item
+        margin: 25px 0px
+        .item__icon
+            float: left
+            margin-right: 15px
+            width: 70px
+            height: 70px
+            position: relative
+            &.item__icon-3
+                width: 53px
+            .icon__svg
+                display: inline-block
+                position: absolute
+                top: 0
+                left: 0
+        .item__title
+            float: left
+            font-style: normal
+            font-weight: 500
+            font-size: 16px
+            line-height: 30px
+            color: #1D2029
+            width: 50%
+            margin-top: 5px
+
+@media only screen and (max-width : 1139px)
+    .advantages
+        height: 100px
+        .advantages-item
+            margin: 25px 0px
+            .item__icon
+                width: 50px
+                height: 50px
+                &.item__icon-3
+                    width: 42px
+            .item__title
+                font-size: 14px
+                width: 58%
+                line-height: 25px
+                margin-top: 0px
+
+@media only screen and (max-width : 767px)
+    .advantages
+        height: auto
+        .col-sm-12
+            flex: 0 0 50%
+            max-width: 50%
+        .advantages-item
+            margin: 25px 0px
+            .item__icon
+                width: 50px
+                height: 50px
+                &.item__icon-3
+                    width: 42px
+            .item__title
+                font-size: 14px
+                width: 50%
+                line-height: 25px
+                margin-top: 0px
+
+@media only screen and (max-width : 419px)
+    .advantages
+        height: auto
+        .col-sm-12
+            flex: 0 0 100%
+            max-width: 100%
+        .advantages-item
+            margin: 25px 0px
+            .item__icon
+                width: 50px
+                height: 50px
+                &.item__icon-3
+                    width: 42px
+            .item__title
+                font-size: 16px
+                width: 50%
+                line-height: 25px
+                margin-top: 0px

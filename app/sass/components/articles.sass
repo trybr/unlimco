@@ -1,0 +1,159 @@
+.articles
+    &.articles-in-service
+        .container
+            padding: 0px
+    .articles-items
+        .articles-item
+            height: 240px
+            background: #FFFFFF
+            border: 1px solid #EDEDED
+            box-sizing: border-box
+            box-shadow: 0 0 10px rgba(0,0,0,0.05)
+            border-radius: 3px
+            overflow: hidden
+            margin-bottom: 30px
+            &:hover
+                border: 1px solid #e6e6e6
+                transition: all 0.2s
+                box-shadow: 0 0 10px rgba(0,0,0,0.1)
+            .item__photo
+                width: 238px
+                height: 240px
+                float: left
+                .item__photo__link
+                    text-decoration: none
+                .photo__img
+                    object-fit: cover
+                    width: 238px
+                    height: 240px
+            .item-info
+                width: 75%
+                float: left
+                margin-left: 25px
+                margin-top: 25px
+                .item__date
+                    font-style: normal
+                    font-weight: normal
+                    font-size: 14px
+                    color: #979797
+                    margin-bottom: 15px
+                .item__title
+                    font-style: normal
+                    font-weight: 500
+                    font-size: 22px
+                    color: #1D2029
+                    margin-bottom: 15px
+                .item__text
+                    font-style: normal
+                    font-weight: normal
+                    font-size: 16px
+                    line-height: 30px
+                    color: #1D2029
+                    margin-bottom: 15px
+                    margin-right: 15px
+                .item__link
+                    font-style: normal
+                    font-weight: normal
+                    font-size: 16px
+                    color: #5084B7
+                    float: left
+                    text-decoration: none
+                    .link__text
+                        font-style: normal
+                        font-weight: normal
+                        font-size: 16px
+                        color: #5084B7
+                        margin-right: 10px
+                    &:hover
+                        .link__text
+                            margin-right: 12px
+                            border-bottom: 1px solid #5084B7
+
+
+@media only screen and (max-width : 1139px)
+    .articles
+        .articles-items
+            .articles-item
+                .item__photo
+                    width: 238px
+                    height: 240px
+                    float: left
+                    .item__photo__link
+                        text-decoration: none
+                    .photo__img
+                        object-fit: cover
+                        width: 238px
+                        height: 240px
+                .item-info
+                    width: 60%
+                    .item__text
+                        font-size: 14px
+                        height: 55px
+                        overflow: hidden
+
+
+
+@media only screen and (max-width : 767px)
+    .articles
+        .articles-items
+            .col-sm-12
+                flex: 0 0 50% !important
+                max-width: 50% !important
+                width: 50% !important
+                float: left !important
+            .articles-item
+                height: auto
+                padding-bottom: 25px
+                margin-bottom: 30px
+                &:last-child
+                    margin-bottom: 30px
+                .item__photo
+                    width: 100%
+                    height: 240px
+                    float: none
+                    .item__photo__link
+                        text-decoration: none
+                    .photo__img
+                        object-fit: cover
+                        width: 100%
+                        height: 240px
+                .item-info
+                    width: 100%
+                    float: none
+                    .item__text
+                        font-size: 14px
+                        height: 55px
+                        overflow: hidden
+                    .item__title
+                        font-size: 18px
+                    .item__link
+                        .link__text
+                            font-size: 14px
+
+
+@media only screen and (max-width : 559px)
+    .articles
+        .articles-items
+            .col-sm-12
+                flex: 0 0 100% !important
+                max-width: 100% !important
+                width: 100% !important
+                float: none !important
+                &:last-child
+                    .articles-item
+                        margin-bottom: 0px
+            .articles-item
+                width: 100%
+                margin-bottom: 30px
+                .item-info
+                    width: auto
+                    margin-left: 15px
+                &:last-child
+                    margin-bottom: 30px
+                .item__photo
+                    width: 100%
+                    height: 240px
+                    .photo__img
+                        object-fit: cover
+                        width: 100%
+                        height: 240px

@@ -1,0 +1,180 @@
+.specialists
+    .swiper-wrapper
+        padding-bottom: 150px
+    .specialists-items
+        .swiper-pagination
+            bottom: 20px
+            z-index: 10
+            .swiper-pagination-bullet
+                width: 15px
+                height: 15px
+                background: rgba(80, 132, 183, 0.45)
+                opacity: 1
+                margin: 0 5px !important
+                &.swiper-pagination-bullet-active
+                    background: #5084B7
+        .swiper-button-spec-next
+            width: 50px
+            height: 50px
+            background: #ffffff
+            box-shadow: 0 0 10px rgba(0,0,0,0.05)
+            border-radius: 3px
+            text-align: center
+            top: 25%
+            right: -10px
+            transition: all 0.2s
+            outline: none
+            &:hover
+                box-shadow: 0 0 10px rgba(0,0,0,0.05)
+                background: #FCFCFC
+            svg
+                margin-top: 15px
+
+        .swiper-button-spec-prev
+            width: 50px
+            height: 50px
+            background: #ffffff
+            box-shadow: 0 0 10px rgba(0,0,0,0.05)
+            border-radius: 3px
+            text-align: center
+            top: 25%
+            left: -10px
+            transition: all 0.2s
+            outline: none
+            &:hover
+                box-shadow: 0 0 10px rgba(0,0,0,0.05)
+                background: #FCFCFC
+            svg
+                margin-top: 15px
+        .specialists-item
+            width: 255px
+            transition: all 0.2s
+            .item__link
+                text-decoration: none
+            .item__photo
+                border: 10px solid #FFFFFF
+                box-sizing: border-box
+                box-shadow: 0 0 10px rgba(0,0,0,0.05)
+                width: 255px
+                height: 255px
+                border-radius: 50%
+                margin-bottom: 25px
+                text-align: center
+                overflow: hidden
+                transition: all 0.2s
+                .photo__img
+                    width: 255px
+                    height: 255px
+                    object-fit: cover
+                    margin-left: -12px
+                    object-position: top
+            .item__fio
+                margin-bottom: 10px
+                font-style: normal
+                font-weight: 500
+                font-size: 20px
+                line-height: 35px
+                text-align: center
+                color: #1D2029
+                .fio__lastname
+                    font-size: 22px
+                    display: block
+            .item__post
+                font-style: normal
+                font-weight: normal
+                font-size: 18px
+                text-align: center
+                color: #1D2029
+            &:hover
+                .item__photo
+                    box-shadow: 0 0 10px rgba(0,0,0,0.1)
+                    border: 10px solid #f7fbff
+                .item__fio
+                    color: #5084B7
+
+@media only screen and (max-width : 1139px)
+    .specialists
+        .swiper-wrapper
+            padding-bottom: 60px
+        .specialists-items
+            .swiper-pagination
+                bottom: 10px
+                z-index: 10
+                .swiper-pagination-bullet
+                    width: 10px
+                    height: 10px
+                    background: rgba(80, 132, 183, 0.45)
+                    opacity: 1
+                    margin: 0 4px !important
+                    &.swiper-pagination-bullet-active
+                        background: #5084B7
+            .swiper-button-spec-next
+                top: 25%
+                right: 5px
+
+            .swiper-button-spec-prev
+                top: 25%
+                left: 5px
+                
+            .specialists-item
+                width: 360px
+                text-align: center
+                .item__photo
+                    width: 220px
+                    height: 220px
+                    margin-left: auto
+                    margin-right: auto
+                    .photo__img
+                        width: 220px
+                        height: 220px
+                        object-fit: cover
+                        margin-left: -12px
+                .item__post
+                    font-size: 16px
+
+
+
+
+@media only screen and (max-width : 767px)
+    .specialists
+        .swiper-wrapper
+            padding-bottom: 60px
+        .specialists-items
+            .swiper-pagination
+                bottom: 10px
+                z-index: 10
+                .swiper-pagination-bullet
+                    width: 10px
+                    height: 10px
+                    background: rgba(80, 132, 183, 0.45)
+                    opacity: 1
+                    margin: 0 4px !important
+                    &.swiper-pagination-bullet-active
+                        background: #5084B7
+            .swiper-button-spec-next
+                top: 26%
+                right: 5px
+
+            .swiper-button-spec-prev
+                top: 26%
+                left: 5px
+                
+            .specialists-item
+                width: 100%
+                text-align: center
+                .item__fio
+                    font-size: 18px
+                    .fio__lastname
+                        font-size: 20px
+                .item__photo
+                    width: 220px
+                    height: 220px
+                    margin-left: auto
+                    margin-right: auto
+                    .photo__img
+                        width: 220px
+                        height: 220px
+                        object-fit: cover
+                        margin-left: -12px
+                .item__post
+                    font-size: 16px

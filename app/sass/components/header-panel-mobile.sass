@@ -1,0 +1,66 @@
+.header-panel-mobile
+    background: #ffffff
+    height: 60px
+    width: 100%
+    // position: fixed
+    top: 0px
+    left: 0px
+    right: 0px
+    z-index: 50
+    display: none
+    box-shadow: 0 0 10px rgba(0,0,0,0.05)
+    .header-btn
+        float: left
+        margin-top: 17px
+        margin-right: 30px
+    .header-logo
+        margin-top: 6px
+        float: left
+    .header-contacts
+        float: right
+        margin-top: 15px
+        margin-right: 30px
+        .location-icon
+            float: left
+            margin-right: 10px
+        .location
+            float: left
+            font-style: normal
+            font-weight: 500
+            font-size: 14px
+            line-height: 30px
+            color: #1D2029
+        .contacts-phone
+            font-style: normal
+            font-weight: 500
+            font-size: 14px
+            text-align: right
+            color: #1D2029
+            text-decoration: none
+            transition: all 0.2s
+            &:hover
+                color: #5084B7
+    .header-request-btn
+        float: right
+        margin-top: 10px
+        width: 160px
+        height: 40px
+        border-radius: 50px
+        font-style: normal
+        font-weight: 300
+        font-size: 14px
+        color: #ffffff
+        display: block
+        text-align: center
+        line-height: 40px
+
+@media only screen and (max-width : 1139px)
+    .header-panel-mobile
+        display: block
+
+@media only screen and (max-width : 767px)
+    .header-panel-mobile
+        .header-contacts
+            margin-right: 0px
+        .header-request-btn
+            display: none

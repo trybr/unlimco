@@ -1,0 +1,201 @@
+.news
+    .row:last-child
+        display: -webkit-flex
+        display: -ms-flexbox
+        display: flex
+        -webkit-flex-wrap: wrap
+        -ms-flex-wrap: wrap
+        flex-wrap: wrap
+        .col-sm-6
+            display: -webkit-flex
+            display: -ms-flexbox
+            display: flex
+    .news-item
+        background: #FFFFFF
+        border: 1px solid #EDEDED
+        box-sizing: border-box
+        box-shadow: 0 0 10px rgba(0,0,0,0.05)
+        border-radius: 3px
+        overflow: hidden
+        position: relative
+        transition: all 0.2s
+        padding-bottom: 25px
+        &:after
+            content: ""
+            position: absolute
+            top: -50%
+            left: -60%
+            width: 20%
+            height: 200%
+            opacity: 0
+            z-index: 1
+            transform: rotate(30deg)
+            background: rgba(255, 255, 255, 0.13)
+            background: linear-gradient(to right,rgba(255, 255, 255, 0.13) 0%,rgba(255, 255, 255, 0.13) 77%,rgba(255, 255, 255, 0.5) 92%,rgba(255, 255, 255, 0.0) 100%)
+        &:hover
+            box-shadow: 0 0 10px rgba(0,0,0,0.1)
+            &:after 
+                opacity: 1
+                left: 130%
+                transition-property: left, top, opacity
+                transition-duration: 0.7s, 0.7s, 0.2s
+                transition-timing-function: ease
+        .item__photo
+            margin-bottom: 25px
+            height: 250px
+            overflow: hidden
+            .item__photo__link
+                text-decoration: none
+            .photo__img
+                width: 360px
+                height: 250px
+                object-fit: cover
+        .item__date
+            font-style: normal
+            font-weight: normal
+            font-size: 14px
+            line-height: 16px
+            color: #979797
+            margin-bottom: 15px
+            margin-left: 15px
+        .item__title
+            font-style: normal
+            font-weight: 500
+            font-size: 22px
+            color: #1D2029
+            margin-bottom: 15px
+            margin-left: 15px
+            padding-right: 15px
+
+        .item__text
+            font-style: normal
+            font-weight: normal
+            font-size: 16px
+            line-height: 30px
+            color: #1D2029
+            margin-bottom: 25px
+            margin-left: 15px
+            margin-right: 15px
+        .item__link
+            font-style: normal
+            font-weight: normal
+            font-size: 16px
+            color: #5084B7
+            margin-left: 15px
+            float: left
+            text-decoration: none
+            .link__text
+                font-style: normal
+                font-weight: normal
+                font-size: 16px
+                color: #5084B7
+                margin-right: 10px
+            &:hover
+                .link__text
+                    margin-right: 12px
+                    border-bottom: 1px solid #5084B7
+
+@media only screen and (max-width : 1139px)
+    .news
+        .col-md-6
+            &:last-child
+                display: none
+
+@media only screen and (max-width : 767px)
+    .news
+        .news-item
+            height: auto
+            padding-bottom: 25px
+            background: #FFFFFF
+            border: 1px solid #EDEDED
+            box-sizing: border-box
+            box-shadow: 0 0 10px rgba(0,0,0,0.05)
+            border-radius: 3px
+            overflow: hidden
+            position: relative
+            transition: all 0.2s
+            margin-bottom: 30px
+            clear: both
+            .item__title
+                font-style: normal
+                font-weight: 500
+                font-size: 18px
+                color: #1D2029
+                margin-bottom: 15px
+                margin-left: 15px
+
+            .item__text
+                font-style: normal
+                font-weight: normal
+                font-size: 14px
+                line-height: 30px
+                color: #1D2029
+                margin-bottom: 25px
+                margin-left: 15px
+            .item__link
+                font-style: normal
+                font-weight: normal
+                font-size: 14px
+                color: #5084B7
+                margin-left: 15px
+                float: left
+                text-decoration: none
+                .link__text
+                    font-style: normal
+                    font-weight: normal
+                    font-size: 14px
+                    color: #5084B7
+                    margin-right: 10px
+                &:hover
+                    .link__text
+                        margin-right: 12px
+                        border-bottom: 1px solid #5084B7
+        .col-md-6
+            display: block !important
+            &:last-child
+                .news-item
+                    margin-bottom: 0px !important
+
+
+@media only screen and (max-width : 559px)
+    .news
+        .col-sm-6
+            flex: 0 0 100% !important
+            max-width: 100% !important
+        .news-item
+            height: auto
+            padding-bottom: 25px
+            .item__photo
+                .photo__img
+                    width: 559px
+        
+
+@media only screen and (max-width : 425px)
+    .news
+        .news-item
+            height: auto
+            padding-bottom: 25px
+            .item__photo
+                height: 250px
+                overflow: hidden
+                .item__photo__link
+                    text-decoration: none
+                .photo__img
+                    width: 400px
+                    height: 250px
+                    object-fit: cover
+
+@media only screen and (max-width : 375px)
+    .news
+        .news-item
+            height: auto
+            padding-bottom: 25px
+            .item__photo
+                height: 250px
+                overflow: hidden
+                .item__photo__link
+                    text-decoration: none
+                .photo__img
+                    width: 360px
+                    height: 250px
+                    object-fit: cover

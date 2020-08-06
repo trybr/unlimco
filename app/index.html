@@ -68,7 +68,7 @@
 					</p>
 			
 					<div class="header-buttons-wrapper">
-						<a href="" class="header-btn btn-outline">
+						<a href="" class="header-btn btn-outline button">
 							<span class="btn__title">
 								Оставить заявку
 							</span>
@@ -78,7 +78,7 @@
 								<span class="dot"></span>
 							</span>
 						</a>
-						<a href="" class="header-btn btn-blue">
+						<a href="#" class="header-btn btn-blue button">
 							<span class="btn__title">
 								Регистрация
 							</span>
@@ -231,6 +231,48 @@
 						Сравните доходность интернет-эквайринга <br />
 						Unlimco и банков
 					</p>
+					<div class="range-slider-wrapper">
+						<div class="slider-info">
+							<div class="slider__title">
+								Сумма вашего месячного оборота
+							</div>
+							<div class="slider__value">
+								<span id="sliderTurnover">0</span> ₽
+							</div>
+						</div>
+						<div id="slider" class="slider__input"></div>
+					</div>
+					<table class="comparison-table">
+						<tr>
+							<th>
+								Ваша выручка с нами
+							</th>
+							<th>
+								Ваша выручка с банками
+							</th>
+						</tr>
+						<tr>
+							<td class="proceeds-with-us">
+								<span id="proceedUs" class="proceed__value">1 885 680</span> ₽
+							</td>
+							<td class="proceeds-with-banks">
+								<span id="proceedBank" class="proceed__value">1 377 880</span> ₽
+							</td>
+						</tr>
+						<tr>
+							<td>Комиссия — 2,8%</td>
+							<td>Конверсия форм — 97%</td>
+						</tr>
+						<tr>
+							<td>Комиссия — 1,8%</td>
+							<td>Конверсия форм — 70%</td>
+						</tr>
+						<tr>
+							<td class="annotation" colspan="2">
+								Указанные комиссии являются примерными и ознакомительными.
+							</td>
+						</tr>
+					</table>
 				</div>
 				<div class="col-xl-6">
 					<h2 class="section__title">
@@ -241,17 +283,85 @@
 						Сравните доходность интернет-эквайринга <br />
 						Unlimco и банков
 					</p>
+					<table class="comparison-tariff">
+						<tr>
+							<th>Способы оплаты</th>
+							<th>Комиссия</th>
+						</tr>
+						<tr>
+							<td>
+								Банковские карты
+							</td>
+							<td>
+								от 1,2%
+							</td>
+						</tr>
+						<tr>
+							<td>
+								Электронные деньги
+							</td>
+							<td>
+								от 1,8%
+							</td>
+						</tr>
+						<tr>
+							<td>
+								Наличные
+							</td>
+							<td>
+								от 1,2%
+							</td>
+						</tr>
+						<tr>
+							<td>
+								Интернет-банкинг
+							</td>
+							<td>
+								от 2%
+							</td>
+						</tr>
+						<tr class="total-row">
+							<td>
+								Выплаты на карты
+							</td>
+							<td>
+								от 0,8%
+							</td>
+						</tr>
+					</table>
+					<a href="" class="tariff-btn btn-breeze button">
+						<span class="btn__title">
+							Определить свой тариф
+						</span>
+						<span class="btn-dots">
+							<span class="dot"></span>
+							<span class="dot"></span>
+							<span class="dot"></span>
+						</span>
+					</a>
 				</div>
 			</div>
-			<div class="row">
-				<div class="col-xl-12">
-					<div class="planforms">
+			<div class="planforms">
+				<div class="row">
+					<div class="col-xl-2">
 						<div class="planforms__title">
-							Работаем на платформах
+							Работаем <br />
+							на платформах
 						</div>
+					</div>
+					<div class="col-xl-10">
 						<ul class="planforms-list">
 							<li class="planform-item">
-								<img src="" alt="" class="item__logo">
+								<img src="img/platforms/platform-1.png" alt="" class="item__logo">
+							</li>
+							<li class="planform-item">
+								<img src="img/platforms/platform-2.png" alt="" class="item__logo">
+							</li>
+							<li class="planform-item">
+								<img src="img/platforms/platform-3.png" alt="" class="item__logo">
+							</li>
+							<li class="planform-item">
+								<img src="img/platforms/platform-4.png" alt="" class="item__logo">
 							</li>
 						</ul>
 					</div>
@@ -276,7 +386,8 @@
 							<div class="item__icon"></div>
 						</div>
 						<div class="item__title">
-							...
+							Автоплатежи <br />
+							(recurring)
 						</div>
 					</div>
 				</div>
@@ -286,7 +397,8 @@
 							<div class="item__icon"></div>
 						</div>
 						<div class="item__title">
-							...
+							Оплата в <br />
+							один клик
 						</div>
 					</div>
 				</div>
@@ -296,7 +408,8 @@
 							<div class="item__icon"></div>
 						</div>
 						<div class="item__title">
-							...
+							Востановление <br />
+							счетов
 						</div>
 					</div>
 				</div>
@@ -306,7 +419,8 @@
 							<div class="item__icon"></div>
 						</div>
 						<div class="item__title">
-							...
+							Прием платежей <br />
+							в чат ботах
 						</div>
 					</div>
 				</div>
@@ -316,7 +430,8 @@
 							<div class="item__icon"></div>
 						</div>
 						<div class="item__title">
-							...
+							Escrow <br />
+							платежи
 						</div>
 					</div>
 				</div>
@@ -326,7 +441,8 @@
 							<div class="item__icon"></div>
 						</div>
 						<div class="item__title">
-							...
+							Кастомизация <br />
+							платежных форм
 						</div>
 					</div>
 				</div>
@@ -336,7 +452,8 @@
 							<div class="item__icon"></div>
 						</div>
 						<div class="item__title">
-							...
+							Split <br />
+							платежи
 						</div>
 					</div>
 				</div>
@@ -346,7 +463,8 @@
 							<div class="item__icon"></div>
 						</div>
 						<div class="item__title">
-							...
+							Каскадный <br />
+							эквайринг
 						</div>
 					</div>
 				</div>
@@ -381,7 +499,7 @@
 					</div>
 				</div>
 				<div class="col-xl-4">
-					<div class="conversion-data">
+					<div class="conversion-data conversion-data-full-bg">
 						<div class="data__number">
 							160
 						</div>
@@ -435,7 +553,7 @@
 						</p>
 					</div>
 					<div class="col-xl-4">
-						<a href="" class="footer-request-btn">
+						<a href="" class="footer-request-btn btn-breeze button">
 							Оставить заявку
 						</a>
 					</div>

@@ -2,11 +2,11 @@ document.addEventListener("DOMContentLoaded", function(event) {
 	var slider = document.getElementById('slider');
 
 	noUiSlider.create(slider, {
-		start: 1000,
+		start: 1000000,
 		connect: [true, false],
 		range: {
 			min: 0,
-			max: 5000
+			max: 2000000
 		}
 	});
 
@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
 
 		const sliderTurnOver = document.getElementById("sliderTurnover");
 
-		sliderTurnOver.innerHTML = Math.round(sliderValue);
+		sliderTurnOver.innerHTML = Math.round(sliderValue).toLocaleString();
 
 	});
 });

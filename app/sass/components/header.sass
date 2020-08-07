@@ -1,14 +1,16 @@
 .header
     background: url("../img/header-bg.png") no-repeat
     height: 938px
+    overflow: hidden
+    position: relative
 
     .container
         position: 
         
     .header-figure
         position: absolute
-        top: 194px
-        right: -70px
+        top: 192px
+        right: -72px
         width: 536px
         height: 536px
         z-index: 1
@@ -19,19 +21,21 @@
         height: 55px
         background: url("../img/logo.png") no-repeat
         margin-top: 52px
+        margin-left: 7px
 
     .menu
         padding: 0px
         margin: 0
-        margin-top: 78px
+        margin-top: 72px
         list-style: none
         color: #ffffff
         font-size: 16px
         font-weight: 500
         font-style: normal
+        margin-left: 72px
         .menu-item
             float: left
-            margin-right: 54px
+            margin-right: 64px
             &:last-child
                 margin-right: 0px
             .item__link
@@ -51,33 +55,40 @@
         .menu-item
             margin-right: 120px
 
+    .header-info
+        margin-left: 10px
+
     .header__title
         font-size: 80px
-        line-height: 72px
+        line-height: 85px
         font-weight: 900
         font-style: normal
         text-align: left
-        margin-bottom: 75px
-        margin-top: 167px
-        color: #ffffff
+        margin-bottom: 52px
+        margin-top: 155px
+        color: #fff
+        letter-spacing: 2px
     .header__text
         font-size: 21px
-        line-height: 34px
+        line-height: 36px
         font-weight: 300
         font-style: normal
         color: #fff
+        margin: 0
+        letter-spacing: 0.8px
 
     .header-buttons-wrapper
-        margin-top: 165px
+        margin-top: 162px
+        margin-left: 15px
         .header-btn
             width: 320px
-            height: 86px
+            height: 85px
             display: block
             text-align: center
-            line-height: 86px
+            line-height: 85px
             text-decoration: none
             color: #ffffff
-            margin-right: 30px
+            margin-right: 32px
             float: left
             border-radius: 3px
             text-transform: uppercase
@@ -86,18 +97,25 @@
             &:last-child
                 margin-right: 0px
             .btn__title
-                padding-left: 55px
+                padding-left: 18px
+                letter-spacing: 1.8px
             .btn-dots
                 float: right
-                margin-right: 40px
+                margin-right: 45px
                 margin-top: 40px
                 .dot
                     background: #ffffff
                     width: 4px
                     height: 4px
-                    margin-right: 6px
+                    margin-right: 8px
                     border-radius: 50%
                     float: left
                     &:last-child
                         margin-right: 0px
+
+            &.registration-btn
+                width: 285px
+                .btn-dots
+                    margin-right: 49px;
+                    margin-top: 40px;
 

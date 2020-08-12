@@ -113,3 +113,73 @@
                 margin: 0px
                 margin-top: 25px
                 width: 88%
+
+
+@media (max-width: 480px)
+    .work-algorithm
+        padding-top: 17px
+        .algorithm-container
+            overflow: hidden
+            height: 165px
+        .section__title
+            margin-bottom: 6px
+            font-size: 32px
+        .section__text
+            font-size: 18px
+            padding: 0 10%
+
+            &::after
+                bottom: 0
+                left: auto
+                right: -362px
+                top: 54px
+
+        .algorithm-illustration
+            background: url("../img/mass-payments/work-algorithm-phone.png")
+            background-size: 100%
+            background-repeat: no-repeat
+            width: 290px
+            height: 585px
+            position: absolute
+            left: 0px
+            right: 0px
+            margin: 0px auto
+            top: auto
+            bottom: -590px
+
+        .algorithm-items
+            margin-top: 14px
+            overflow: hidden
+            clear: both
+            overflow: hidden
+            width: 100%
+            &.algorithm-items--left
+                float: left
+                position: relative
+                top: auto
+                left: auto
+                display: none
+            &.algorithm-items--right
+                float: left
+                position: relative
+                top: auto
+                right: auto
+                .algorithm-item
+                    width: auto
+                    margin-bottom: 30px
+                    clear: both
+                    overflow: hidden
+                    .title
+                        text-align: left
+                        float: left
+                        margin-left: 115px
+                        font-size: 18px
+                        line-height: 32px
+                        &::after
+                            top: -29px
+                            left: -144px
+                    .description
+                        text-align: left
+                        float: left
+                        font-size: 14px
+                        margin-top: 15px

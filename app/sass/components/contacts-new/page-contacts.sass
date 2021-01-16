@@ -1,0 +1,127 @@
+.page-contacts-new
+    padding-top: 30px
+    background: #0092ff
+    position: relative
+    min-height: 1300px
+    h2
+        color: #ffffff
+        font-size: 28px
+        font-weight: 600
+        font-style: normal
+        margin-bottom: 30px
+
+    p
+        color: #ffffff
+        font-size: 18px
+        margin-bottom: 0px
+        margin-top: 0px
+        font-weight: 300
+        font-style: normal
+    address, dt, dd
+        color: #ffffff
+        font-size: 18px
+        margin-bottom: 14px
+        margin-top: 0px
+        font-weight: 300
+        font-style: normal
+
+    .contacts-link
+        margin-top: 30px
+        margin-bottom: 30px
+        a
+            position: relative
+            .arrow-icon
+                position: absolute
+                right: -50px
+                top: 3px
+                
+    a
+        color: #ffffff
+        font-size: 16px
+        font-weight: 300
+        font-style: normal
+        text-decoration: none
+        border-bottom: 1px solid #ffffff
+        &:hover
+            border-bottom: 1px solid transparent
+
+    .contacts-block
+        margin-bottom: 50px
+
+    .contacts-address
+        margin-top: 50px
+
+    .contacts-map
+        margin-top: 70px
+        
+
+    .dl-list
+        margin-bottom: 0px
+
+    .dl-list dt, .dl-list dd
+        // width: 48%
+        display: inline-block
+        margin-bottom: 15px
+
+    .dl-list dd
+        margin-left: 10px
+
+    .contacts-illustration
+        // background: url("../img/contacts/contacts-illustration.png") no-repeat
+        // width: 575px
+        // height: 540px
+        position: absolute
+        bottom: -25px
+        right: -350px
+
+    .contacts-black-bullets
+        // background: url("../img/contacts/black-bullets.png") no-repeat
+        // width: 370px
+        // height: 379px
+        position: absolute
+        bottom: 25px
+        left: -235px
+
+    .contacts-yellow-bullets
+        // background: url("../img/contacts/yellow-bullets-small.png") no-repeat
+        // width: 166px
+        // height: 84px
+        position: absolute
+        bottom: 700px
+        right: -85px
+
+
+@media (min-width: 320px) and (max-width: 1439px)
+    .page-contacts-new
+        min-height: auto
+        padding-bottom: 70px
+        h1
+            font-size: 36px
+        h2
+            font-size: 28px
+
+        .contacts-link
+            margin-top: 30px
+            margin-bottom: 30px
+            a
+                position: relative
+                &::after
+                    content: ''
+                    background: url("../img/contacts/arrow-right.png") no-repeat
+                    width: 8px
+                    height: 15px
+                    position: absolute
+                    right: -20px
+                    top: 3px
+
+        .dl-list dd
+            margin-left: 0px
+            
+        .contacts-illustration
+            display: none
+
+        .contacts-black-bullets
+            display: none
+
+        .contacts-yellow-bullets
+            display: none

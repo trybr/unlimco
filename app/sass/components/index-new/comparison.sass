@@ -1,0 +1,710 @@
+.comparison-new
+    padding-bottom: 0px
+    margin-top: 11px
+    position: relative
+    .comparison-block-left
+        width: 50%
+        height: 100%
+        background: #22ded7
+        position: absolute
+        left: 0px
+        top: 0px
+
+    .comparison-block-right
+        width: 50%
+        height: 100%
+        background: #0092ff
+        position: absolute
+        right: 0px
+        top: 0px
+    &::after
+        content: ''
+        width: 800px
+        height: 800px
+        background: url("../img/comparison-circle-left.png") no-repeat
+        position: absolute
+        background-position: center center
+        left: -52%
+        top: -10px
+        z-index: 2
+    &::before
+        content: ''
+        width: 800px
+        height: 800px
+        background: url("../img/comparison-circle-right.png") no-repeat
+        position: absolute
+        background-position: center center
+        right: -50%
+        bottom: -10px
+        z-index: 3
+    .container
+        position: relative
+        z-index: 2
+    .comparison-left-block
+        background: #22ded7
+    .comparison-right-block
+        background: #0092ff
+    .section__title
+        color: #fff
+        font-weight: 500
+        font-style: normal
+        text-align: left
+        margin-bottom: 25px
+        letter-spacing: 1.4px
+        font-style: normal
+        font-size: 54px
+        margin-top: 97px
+        line-height: 68px
+
+    .section__text
+        color: #ffffff
+        font-size: 28px
+        text-align: left
+        margin: 0
+        letter-spacing: 0.6px
+        line-height: 42px
+
+    .comparison-table
+        margin-top: 55px
+        width: 100%
+        tr
+            th
+                font-weight: 300
+                font-style: normal
+                font-size: 18px
+                color: #ffffff
+                text-align: left
+                padding-bottom: 5px
+                letter-spacing: 0.8px
+                &.proceeds-with-us-th
+                    width: 305px
+            td
+                font-weight: 300
+                font-style: normal
+                font-size: 18px
+                color: #ffffff
+                text-align: left
+                padding-bottom: 5px
+                letter-spacing: 0.8px
+                &.proceeds-with-us
+                    font-size: 45px
+                    color: #0092ff
+                    font-weight: 900
+                    font-style: normal
+                    padding-bottom: 25px
+                &.proceeds-with-banks
+                    color: #ffffff
+                    font-size: 35px
+                    font-weight: 600
+                    font-style: normal
+                    padding-bottom: 25px
+                    padding-top: 9px
+                    letter-spacing: 2px
+
+        .comparison-option
+            float: left
+            width: 50%
+            &:first-child
+                width: 44%
+            .option-title
+                font-weight: 300
+                font-style: normal
+                font-size: 18px
+                color: #ffffff
+                text-align: left
+                padding-bottom: 5px
+                letter-spacing: 0.8px
+            .option-value
+                padding-bottom: 5px
+                &.proceeds-with-us
+                    font-size: 45px
+                    color: #0092ff
+                    font-weight: 900
+                    font-style: normal
+                    padding-bottom: 25px
+                &.proceeds-with-banks
+                    color: #ffffff
+                    font-size: 35px
+                    font-weight: 600
+                    font-style: normal
+                    padding-bottom: 25px
+                    padding-top: 9px
+                    letter-spacing: 2px
+            p
+                font-weight: 300
+                font-style: normal
+                font-size: 18px
+                color: #ffffff
+                text-align: left
+                padding-bottom: 5px
+                letter-spacing: 0.8px
+                margin-bottom: 0px
+
+        .annotation
+            padding-top: 45px
+            letter-spacing: 0.6px
+            font-weight: 300
+            font-style: normal
+            font-size: 18px
+            color: #ffffff
+            text-align: left
+            padding-bottom: 5px
+            clear: both
+            overflow: hidden
+
+    .comparison-tariff-wrapper
+        padding-left: 90px
+        text-align: left
+        .section__text
+            font-size: 20px
+    .comparison-tariff
+        margin-top: 47px
+        width: 100%
+        margin-bottom: 34px
+        tr
+            th
+                font-weight: 300
+                font-style: normal
+                font-size: 18px
+                color: #e8fffe
+                text-align: left
+                padding-bottom: 30px
+                letter-spacing: 1.1px
+                &.payment-metods-th
+                    width: 436px
+            td
+                font-weight: 300
+                font-style: normal
+                font-size: 18px
+                color: #e8fffe
+                text-align: left
+                padding-bottom: 22px
+                letter-spacing: 0.9px
+            &.total-row
+                td
+                    color: #ffffff
+                    font-weight: 500
+                    font-style: normal
+                    font-size: 20px
+                    text-align: left
+                    padding-top: 15px
+                    letter-spacing: 0.6px
+
+    .tariff-btn
+        width: 306px
+        height: 86px
+        display: block
+        text-align: center
+        line-height: 85px
+        text-decoration: none
+        color: #ffffff
+        float: left
+        border-radius: 5px
+        font-weight: normal
+        font-style: normal
+        position: relative
+        .btn__title
+            padding-left: 0
+            letter-spacing: 1.4px
+            font-weight: 500
+            margin-left: 35px
+            display: block
+            float: left
+            font-size: 14px
+
+
+    .range-slider-wrapper
+        position: relative
+        margin-top: 48px
+        .slider-info
+            clear: both
+            overflow: hidden
+            margin-bottom: 28px
+        .slider__title
+            color: #ffffff
+            font-size: 18px
+            font-weight: 300
+            font-style: normal
+            float: left
+            letter-spacing: 0.6px
+        .slider__value
+            color: #ffffff
+            font-size: 18px
+            font-weight: bold
+            font-style: normal
+            float: right
+            padding-right: 33px
+            letter-spacing: 0.6px
+        .noUi-target
+            box-shadow: none
+            height: 5px
+            border-radius: 5px
+            border: none
+            background: #ffffff
+            margin-right: 33px
+
+        .noUi-connect
+            background: #0092ff
+        .noUi-handle
+            border: none
+            box-shadow: none
+            background: #0092ff
+            width: 24px
+            height: 24px
+            border-radius: 50%
+            top: -10px
+            outline: none
+            cursor: pointer
+            &::after
+                display: none
+            &::before
+                display: none
+
+@media (max-width: 2800px)
+    .comparison-new
+        position: relative
+        &::after
+            content: ''
+            width: 800px
+            height: 800px
+            background: url("../img/comparison-circle-left.png") no-repeat
+            position: absolute
+            background-position: center center
+            left: -20%
+            top: -10px
+            z-index: 2
+        &::before
+            content: ''
+            width: 800px
+            height: 800px
+            background: url("../img/comparison-circle-right.png") no-repeat
+            position: absolute
+            background-position: center center
+            right: -20%
+            bottom: -10px
+            z-index: 3
+
+@media (max-width: 2399px)
+    .comparison-new
+        position: relative
+        &::after
+            content: ''
+            width: 800px
+            height: 800px
+            background: url("../img/comparison-circle-left.png") no-repeat
+            position: absolute
+            background-position: center center
+            left: -25%
+            top: -10px
+            z-index: 2
+        &::before
+            content: ''
+            width: 800px
+            height: 800px
+            background: url("../img/comparison-circle-right.png") no-repeat
+            position: absolute
+            background-position: center center
+            right: -25%
+            bottom: -10px
+            z-index: 3
+
+@media (max-width: 2000px)
+    .comparison-new
+        position: relative
+        &::after
+            content: ''
+            width: 800px
+            height: 800px
+            background: url("../img/comparison-circle-left.png") no-repeat
+            position: absolute
+            background-position: center center
+            left: -35%
+            top: -10px
+            z-index: 2
+        &::before
+            content: ''
+            width: 800px
+            height: 800px
+            background: url("../img/comparison-circle-right.png") no-repeat
+            position: absolute
+            background-position: center center
+            right: -30%
+            bottom: -10px
+            z-index: 3
+
+@media (max-width: 1700px)
+    .comparison-new
+        position: relative
+        &::after
+            content: ''
+            width: 800px
+            height: 800px
+            background: url("../img/comparison-circle-left.png") no-repeat
+            position: absolute
+            background-position: center center
+            left: -42%
+            top: -10px
+            z-index: 2
+        &::before
+            content: ''
+            width: 800px
+            height: 800px
+            background: url("../img/comparison-circle-right.png") no-repeat
+            position: absolute
+            background-position: center center
+            right: -35%
+            bottom: -10px
+            z-index: 3
+
+@media (max-width: 1600px)
+    .comparison-new
+        position: relative
+        &::after
+            content: ''
+            width: 800px
+            height: 800px
+            background: url("../img/comparison-circle-left.png") no-repeat
+            position: absolute
+            background-position: center center
+            left: -52%
+            top: -10px
+            z-index: 2
+        &::before
+            content: ''
+            width: 800px
+            height: 800px
+            background: url("../img/comparison-circle-right.png") no-repeat
+            position: absolute
+            background-position: center center
+            right: -48%
+            bottom: -10px
+            z-index: 3
+
+@media (min-width: 768px) and (max-width: 1439px)
+    .comparison-new
+        padding-top: 40px
+        padding-bottom: 0px
+        .section__title
+            font-size: 32px
+            text-align: left
+            margin-bottom: 0px
+        .section__text
+            font-size: 18px
+            text-align: left
+            margin-top: 20px
+            margin-bottom: 35px
+
+        .range-slider-wrapper 
+            .slider__title
+                font-size: 16px
+                float: none
+            .slider__value
+                float: none
+                margin: 0px auto
+                text-align: center
+                font-size: 16px
+
+        .comparison-table
+            .comparison-option
+                display: block
+                width: 100% !important
+                .option-title
+                    font-size: 16px
+                p
+                    font-size: 16px
+                .annotation
+                    font-size: 16px
+                .option-value
+                    &.proceeds-with-us
+                        font-size: 36px
+                    &.proceeds-with-banks
+                        font-size: 28px
+            
+        .comparison-tariff-wrapper
+            padding-left: 0px
+            margin-top: 65px
+            .comparison-tariff
+                tr
+                    th
+                        font-size: 16px
+                        width: auto !important
+                    td
+                        font-size: 16px
+
+        .btn-wrapper-tariff
+            width: 100%
+            max-width: 330px
+            &::after
+                width: 100%
+                max-width: 330px
+        .tariff-btn
+            width: 100%
+            max-width: 330px
+            font-size: 14px
+            .btn-dots
+                margin-right: 3%
+
+        .planforms
+            margin-top: 40px
+            .platforms-wrapper
+                overflow: hidden
+            .planforms__title
+                font-size: 32px
+                margin-bottom: 0px
+            .planforms-list
+                width: 500%
+                float: left
+                margin-left: 0px
+                height: 70px
+                padding-bottom: 0px
+                margin-bottom: 30px
+                .planform-item
+                    float: left
+                    width: 4%
+                    margin-right: 40px
+                    &:nth-child(2)
+                        margin-top: 20px
+                    &:nth-child(3)
+                        svg
+                            width: 80%
+                    .planform-dev
+                        position: absolute
+                        top: 6px
+                        left: 2px
+                        width: 210px
+                        .dev-circle
+                            width: 42px
+                            height: 42px
+                            background: #adf2f0
+                            border-radius: 50%
+                            float: left
+                            position: relative
+                            .dots
+                                position: absolute
+                                left: 0px
+                                right: 0px
+                                top: 46%
+                                margin: 0 auto
+                                width: auto
+                                width: 17px
+                                .dot
+                                    width: 3px
+                                    height: 3px
+                                    background: #04a8a4
+                                    border-radius: 50%
+                                    float: left
+                                    margin-right: 4px
+                                    &:last-child
+                                        margin-right: 0px
+                        .dev-title
+                            float: left
+                            font-size: 14px
+                            color: silver
+                            font-weight: 500
+                            font-style: normal
+                            color: #04a8a4
+                            margin-left: 13px
+                            margin-top: 3px
+                            line-height: 18px
+                            letter-spacing: .6px
+                    &:nth-child(3)
+                        text-align: center
+                        .item__logo
+                            max-width: 110px
+                            margin-top: -4px
+                    .item__logo
+                        width: 100%
+                        max-width: 170px
+
+
+@media (min-width: 768px) and (max-width: 1439px)
+    .comparison-new
+        padding-top: 40px
+        padding-bottom: 0px
+        .comparison-left-block
+            padding-bottom: 40px
+        .section__title
+            margin-top: 40px
+            line-height: normal
+        &::after, &::before
+            display: none
+        .comparison-block-left, .comparison-block-right
+            display: none
+        .section__title
+            font-size: 32px
+            text-align: left
+            margin-bottom: 0px
+        .section__text
+            font-size: 18px
+            text-align: left
+            margin-top: 20px
+            margin-bottom: 35px
+
+        .range-slider-wrapper 
+            .slider__title
+                font-size: 16px
+                float: none
+            .slider__value
+                float: none
+                margin: 0px auto
+                text-align: center
+                font-size: 16px
+
+        .comparison-table
+            .comparison-option
+                display: block
+                width: 100% !important
+                .option-title
+                    font-size: 16px
+                p
+                    font-size: 16px
+                .annotation
+                    font-size: 16px
+                .option-value
+                    &.proceeds-with-us
+                        font-size: 36px
+                    &.proceeds-with-banks
+                        font-size: 28px
+            
+        .comparison-tariff-wrapper
+            padding-left: 0px
+            margin-top: 65px
+            .comparison-tariff
+                tr
+                    th
+                        font-size: 16px
+                        width: auto !important
+                    td
+                        font-size: 16px
+
+        .btn-wrapper-tariff
+            width: 100%
+            max-width: 330px
+            &::after
+                width: 100%
+                max-width: 330px
+        .tariff-btn
+            width: 100%
+            max-width: 330px
+            font-size: 14px
+            .btn-dots
+                margin-right: 3%
+
+        .planforms
+            margin-top: 40px
+            .platforms-wrapper
+                overflow: hidden
+            .planforms__title
+                font-size: 32px
+                margin-bottom: 30px
+            .planforms-list
+                width: 500%
+                float: left
+                margin-left: 0px
+                height: 70px
+                padding-bottom: 0px
+                margin-bottom: 30px
+                .planform-item
+                    float: left
+                    width: 170px
+                    margin-right: 55px
+                    margin-top: 0px !important
+                    .item__logo
+                        width: 100%
+                        max-width: 170px
+
+@media (min-width: 320px) and (max-width: 767px)
+    .comparison-new
+        padding-top: 40px
+        padding-bottom: 0px
+        .comparison-left-block
+            padding-bottom: 40px
+        .section__title
+            margin-top: 40px
+            line-height: normal
+        &::after, &::before
+            display: none
+        .comparison-block-left, .comparison-block-right
+            display: none
+        .section__title
+            font-size: 32px
+            text-align: left
+            margin-bottom: 0px
+        .section__text
+            font-size: 18px
+            text-align: left
+            margin-top: 20px
+            margin-bottom: 35px
+
+        .range-slider-wrapper 
+            .slider__title
+                font-size: 16px
+                float: none
+            .slider__value
+                float: none
+                margin: 0px auto
+                text-align: center
+                font-size: 16px
+
+        .comparison-table
+            .comparison-option
+                display: block
+                width: 100% !important
+                .option-title
+                    font-size: 16px
+                p
+                    font-size: 16px
+                .annotation
+                    font-size: 16px
+                .option-value
+                    &.proceeds-with-us
+                        font-size: 36px
+                    &.proceeds-with-banks
+                        font-size: 28px
+            
+        .comparison-tariff-wrapper
+            padding-left: 0px
+            margin-top: 65px
+            .comparison-tariff
+                tr
+                    th
+                        font-size: 16px
+                        width: auto !important
+                    td
+                        font-size: 16px
+
+        .btn-wrapper-tariff
+            width: 100%
+            max-width: 330px
+            &::after
+                width: 100%
+                max-width: 330px
+        .tariff-btn
+            width: 100%
+            max-width: 330px
+            font-size: 14px
+            .btn-dots
+                margin-right: 3%
+
+        .planforms
+            margin-top: 40px
+            .platforms-wrapper
+                overflow: hidden
+            .planforms__title
+                font-size: 32px
+                margin-bottom: 30px
+            .planforms-list
+                width: 500%
+                float: left
+                margin-left: 0px
+                height: 70px
+                padding-bottom: 0px
+                margin-bottom: 30px
+                .planform-item
+                    float: left
+                    width: 170px
+                    margin-right: 55px
+                    margin-top: 0px !important
+                    .item__logo
+                        width: 100%
+                        max-width: 170px

@@ -1,71 +1,247 @@
+.animate__animated
+  --animate-duration: 1.5s
+    
 .services
     padding-top: 83px
     padding-bottom: 0px
     background: url("../img/services-section-1-bg.jpg") no-repeat
-    height: 1084px
+    // height: 1084px
+    height: 1200px
+    background-position: center center
+    background-size: cover
+    position: relative
     .section__title
-        font-weight: 900
+        margin-bottom: 68px
+        font-weight: 500
+        font-family: 'Lato'
         font-style: normal
         text-align: center
         color: #ffffff
-        font-size: 55px
-        margin-bottom: 68px
+        font-size: 45px
 
     .service-item
         margin-bottom: 30px
-        .item__icon
+        position: relative
+        height: 420px
+        .item-icon
+            position: absolute
+            top: 120px
+            left: 10px
+            right: 0px
+            margin: 0 auto
+            .icon-lines
+                position: relative
+                z-index: 1
+                display: none
+                &.animate__bounceIn
+                    display: block
+            .icon-bg
+                position: absolute
+                z-index: 0
+                display: none
+                &.animate__fadeIn
+                    display: block
             &.service-icon-1
-                background: url("../img/services/service-icon-1.png") no-repeat center center
-                width: 300px
-                height: 289px
-                margin: 0 auto
+                width: 138px
+                top: 135px
+                left: 25px
+                .icon-bg
+                    top: 2px
+                    left: 2px
             &.service-icon-2
-                background: url("../img/services/service-icon-2.png") no-repeat center center
-                width: 300px
-                height: 289px
-                margin: 0 auto
+                width: 100%
+                top: 25%
+                left: 0px
+                right: 0px
+                height: 80%
+                text-align: center
+                .icon-bg
+                    top: 0px
+                    right: 0px
+                    left: 20px
             &.service-icon-3
-                background: url("../img/services/service-icon-3.png") no-repeat center center
-                width: 300px
-                height: 289px
-                margin: 0 auto
+                width: 109px
+                top: 130px
+                left: 0px
+                .icon-bg
+                    top: 2px
+                    right: 0
+                    left: 0px
             &.service-icon-4
-                background: url("../img/services/service-icon-4.png") no-repeat center center
-                width: 300px
-                height: 289px
-                margin: 0 auto
+                width: 116px
+                top: 135px
+                left: 40px
+                .icon-bg
+                    top: 2px
+                    right: 0
+                    left: 2px
             &.service-icon-5
-                background: url("../img/services/service-icon-5.png") no-repeat center center
-                width: 300px
-                height: 289px
+                width: 100%
+                top: 100px
+                left: 14px
+                right: 0px
+                height: 80%
                 margin: 0 auto
+                text-align: center
+                .icon-bg
+                    top: 85px
+                    left: 74px
             &.service-icon-6
-                background: url("../img/services/service-icon-6.png") no-repeat center center
-                width: 300px
-                height: 289px
-                margin: 0 auto
+                width: 120px
+                top: 130px
+                left: 10px
+                .icon-bg
+                    top: 0px
+                    left: 2px
             &.service-icon-7
-                background: url("../img/services/service-icon-7.png") no-repeat center center
-                width: 300px
-                height: 289px
-                margin: 0 auto
+                width: 85px
+                top: 127px
+                left: 0px
+                .icon-bg
+                    top: 0px
+                    left: 2px
             &.service-icon-8
-                background: url("../img/services/service-icon-8.png") no-repeat center center
-                width: 300px
-                height: 289px
-                margin: 0 auto
+                width: 76px
+                top: 120px
+                left: 0px
+                .icon-bg
+                    top: 30px
+                    left: 16px
+        .item-bg
+            height: 335px
+            .item-bg__img
+                width: 370px
+                margin: 0px -30px
+            &.item-bg-1
+                .item-bg__img
+                    width: 400px
+                    margin-left: -45px
+            &.item-bg-2
+                .item-bg__img
+                    width: 390px
+                    margin-top: -22px
+
+        a
+            text-decoration: none !important
+        .item__icon
+            text-align: center
         .item__title
             color: #ffffff
             font-size: 26px
             font-weight: 500
             font-style: normal
             text-align: center
-            margin-top: 2px
+            margin-top: 0px
+            padding: 0px 50px
+    
 
     &.services-add-section
         background: url("../img/services-section-2-bg.jpg") no-repeat
-        height: 1084px
+        // height: 1084px
+        height: 1200px
+        background-position: center center
+        background-size: cover
+        position: relative
         .service-item
+            .item-icon
+                position: absolute
+                top: 120px
+                left: 10px
+                right: 0px
+                margin: 0 auto
+                display: block
+                .icon-lines
+                    position: relative
+                    z-index: 1
+                    display: none
+                    &.animate__bounceIn
+                        display: block
+                .icon-bg
+                    position: absolute
+                    z-index: 0
+                    display: none
+                    &.animate__fadeIn
+                        display: block
+                &.service-icon-9
+                    width: 138px
+                    top: 144px
+                    left: 60px
+                    .icon-bg
+                        top: 3px
+                        left: 2px
+                &.service-icon-10
+                    width: 117px
+                    top: 136px
+                    left: -20px
+                    .icon-bg
+                        top: 2px
+                        left: 12px
+                &.service-icon-11
+                    width: 120px
+                    top: 125px
+                    left: -5px
+                    .icon-bg
+                        top: 10px
+                        left: 1px         
+                &.service-icon-12
+                    width: 120px
+                    top: 130px
+                    left: -20px
+                    .icon-bg
+                        top: 13px
+                        left: 11px
+                &.service-icon-13
+                    width: 106px
+                    top: 145px
+                    left: 25px
+                    .icon-bg
+                        top: 3px
+                        left: 3px
+                &.service-icon-14
+                    width: 114px
+                    top: 127px
+                    left: -20px
+                    .icon-bg
+                        top: 32px
+                        left: 2px
+                &.service-icon-15
+                    width: 118px
+                    top: 134px
+                    left: -8px
+                    .icon-bg
+                        top: 2px
+                        left: 3px
+                &.service-icon-16
+                    width: 126px
+                    top: 127px
+                    left: 40px
+                    .icon-bg
+                        top: 4px
+                        left: 21px
+
+            .item-bg
+                height: 335px
+                .item-bg__img
+                    width: 370px
+                    margin: 0px -30px
+                &.item-bg-5
+                    .item-bg__img
+                        width: 410px
+                        margin: 0 -48px
+                &.item-bg-6
+                    .item-bg__img
+                        width: 410px
+                        margin: 0 -48px
+                &.item-bg-7
+                    .item-bg__img
+                        width: 330px
+                        margin: 0px 8px
+                        margin-top: 50px
+                &.item-bg-8
+                    .item-bg__img
+                        width: 430px
+                        margin: 0px -40px
+                        margin-top: -25px
             .item-icon-wrapper
                 width: 300px
                 height: 250px
@@ -74,19 +250,391 @@
                 .item__icon
                     position: absolute
                     top: 0px
+
+
+@media (min-width: 768px) and (max-width: 1439px)
+    .services
+        position: relative
+        height: auto
+        padding-bottom: 40px
+        .section__title
+            margin-bottom: 6px
+            font-size: 32px
+        .service-item
+            height: auto
+            .item-bg
+                text-align: center
+            .item-icon
                 &.service-icon-1
-                    background: url("../img/services-add-section/service-icon-1.png") no-repeat center center
+                    width: 50%
+                    left: 0
+                    right: 0
+                    bottom: auto
+                    top: 35%
+                    max-width: 120px
+                    text-align: center
+                    svg
+                        width: 100%
+                        height: 100%
                 &.service-icon-2
-                    background: url("../img/services-add-section/service-icon-2.png") no-repeat center center
+                    width: 50%
+                    left: 0
+                    right: 0
+                    bottom: auto
+                    top: 7%
+                    max-width: 120px
+                    text-align: center
+                    svg
+                        width: 100%
+                        height: 100%
                 &.service-icon-3
-                    background: url("../img/services-add-section/service-icon-3.png") no-repeat center center
+                    width: 50%
+                    left: 0
+                    right: 0
+                    bottom: auto
+                    top: 33%
+                    max-width: 120px
+                    text-align: center
+                    svg
+                        width: 100%
+                        height: 100%
                 &.service-icon-4
-                    background: url("../img/services-add-section/service-icon-4.png") no-repeat center center
+                    width: 50%
+                    left: 0
+                    right: 0
+                    bottom: auto
+                    top: 33%
+                    max-width: 120px
+                    text-align: center
+                    svg
+                        width: 100%
+                        height: 100%
                 &.service-icon-5
-                    background: url("../img/services-add-section/service-icon-5.png") no-repeat center center
+                    width: 50%
+                    left: 0
+                    right: 0
+                    bottom: auto
+                    top: 10%
+                    max-width: 180px
+                    text-align: center
+                    svg
+                        width: 100%
+                        height: 100%
                 &.service-icon-6
-                    background: url("../img/services-add-section/service-icon-6.png") no-repeat center center
+                    width: 50%
+                    left: 0
+                    right: 0
+                    bottom: auto
+                    top: 33%
+                    max-width: 130px
+                    text-align: center
+                    svg
+                        width: 100%
+                        height: 100%
                 &.service-icon-7
-                    background: url("../img/services-add-section/service-icon-7.png") no-repeat center center
+                    width: 50%
+                    left: 0%
+                    right: 0
+                    bottom: auto
+                    top: 38%
+                    max-width: 80px
+                    text-align: center
+                    svg
+                        width: 100%
+                        height: 100%
                 &.service-icon-8
-                    background: url("../img/services-add-section/service-icon-8.png") no-repeat center center
+                    width: 50%
+                    left: 0%
+                    right: 0
+                    bottom: auto
+                    top: 30%
+                    max-width: 80px
+                    text-align: center
+                    svg
+                        width: 100%
+                        height: 100%
+            .item__title
+                font-size: 16px
+                padding: 0px
+        &.services-add-section
+            height: auto
+            .section__title
+                margin-bottom: 45px
+                font-size: 32px
+            .service-item
+                .item-icon
+                    &.service-icon-9
+                        width: 138px
+                        top: 144px
+                        left: 60px
+                    &.service-icon-10
+                        width: 117px
+                        top: 136px
+                        left: -20px
+                    &.service-icon-11
+                        width: 120px
+                        top: 125px
+                        left: -7%           
+                    &.service-icon-12
+                        width: 120px
+                        top: 130px
+                        left: -20px
+                    &.service-icon-13
+                        width: 106px
+                        top: 145px
+                        left: 25px 
+                    &.service-icon-14
+                        width: 114px
+                        top: 127px
+                        left: -20px
+                    &.service-icon-15
+                        width: 118px
+                        top: 134px
+                        left: -5%
+                    &.service-icon-16
+                        width: 126px
+                        top: 127px
+                        left: 25px
+                    .icon__img
+                        width: 100%
+                        max-width: 200px
+                .item__title
+                    font-size: 16px
+
+@media (min-width: 320px) and (max-width: 767px)
+    .services
+        height: auto
+        .section__title
+            margin-bottom: 6px
+            font-size: 32px
+        .service-item
+            height: auto
+            .item-icon
+                &.service-icon-1
+                    width: 50%
+                    left: 0px
+                    right: 0px
+                    bottom: auto
+                    top: 70px
+                    max-width: 65px
+                    svg
+                        width: 100%
+                        height: 100%
+                &.service-icon-2
+                    width: 50%
+                    left: 0px
+                    right: 0px
+                    bottom: auto
+                    top: -12px
+                    max-width: 65px
+                    text-align: center
+                    svg
+                        width: 100%
+                        height: 100%
+                &.service-icon-3
+                    width: 50%
+                    left: 0px
+                    right: 0px
+                    bottom: auto
+                    top: 55px
+                    max-width: 65px
+                    text-align: center
+                    svg
+                        width: 100%
+                        height: 100%
+                &.service-icon-4
+                    width: 50%
+                    left: 0px
+                    right: 0px
+                    bottom: auto
+                    top: 55px
+                    max-width: 65px
+                    text-align: center
+                    svg
+                        width: 100%
+                        height: 100%
+                &.service-icon-5
+                    width: 80%
+                    left: 24px
+                    right: 0
+                    bottom: auto
+                    top: 0px
+                    max-width: 105px
+                    text-align: center
+                    svg
+                        width: 100%
+                        height: 100%
+                &.service-icon-6
+                    width: 50%
+                    left: 0px
+                    right: 0px
+                    bottom: auto
+                    top: 65px
+                    max-width: 65px
+                    text-align: center
+                    svg
+                        width: 100%
+                        height: 100%
+                &.service-icon-7
+                    width: 30%
+                    left: 0px
+                    right: 0px
+                    bottom: auto
+                    top: 70px
+                    max-width: 40px
+                    text-align: center
+                    svg
+                        width: 100%
+                        height: 100%
+                &.service-icon-8
+                    width: 30%
+                    left: 0px
+                    right: 0px
+                    bottom: auto
+                    top: 65px
+                    max-width: 40px
+                    text-align: center
+                    svg
+                        width: 100%
+                        height: 100%
+            .item__title
+                font-size: 16px
+                padding: 0px
+            .item-bg
+                width: 100%
+                max-width: 130px
+                height: 200px
+                text-align: center
+                margin: 0 auto
+                &.item-bg-1
+                    .item-bg__img
+                        width: 160%
+                        margin-left: -45px
+                &.item-bg-2
+                    .item-bg__img
+                        width: 160%
+                        margin-left: -45px
+        &.services-add-section
+            height: auto
+            .section__title
+                margin-bottom: 45px
+                font-size: 32px
+            .service-item
+                .item-icon
+                    &.service-icon-9
+                        width: 50%
+                        left: 20%
+                        right: 0px
+                        bottom: auto
+                        top: 70px
+                        max-width: 65px
+                        svg
+                            width: 100%
+                            height: 100%
+                    &.service-icon-10
+                        width: 50%
+                        left: 0px
+                        right: 0px
+                        bottom: auto
+                        top: 25%
+                        max-width: 65px
+                        text-align: center
+                        svg
+                            width: 100%
+                            height: 100%
+                    &.service-icon-11
+                        width: 50%
+                        left: 0px
+                        right: 0px
+                        bottom: auto
+                        top: 55px
+                        max-width: 65px
+                        text-align: center
+                        svg
+                            width: 100%
+                            height: 100%
+                    &.service-icon-12
+                        width: 50%
+                        left: -15%
+                        right: 0px
+                        bottom: auto
+                        top: 55px
+                        max-width: 65px
+                        text-align: center
+                        svg
+                            width: 100%
+                            height: 100%
+                    &.service-icon-13
+                        width: 80%
+                        left: 24px
+                        right: 0
+                        bottom: auto
+                        top: 31%
+                        max-width: 65px
+                        text-align: center
+                        svg
+                            width: 100%
+                            height: 100%
+                    &.service-icon-14
+                        width: 50%
+                        left: 0px
+                        right: 0px
+                        bottom: auto
+                        top: 65px
+                        max-width: 65px
+                        text-align: center
+                        svg
+                            width: 100%
+                            height: 100%
+                    &.service-icon-15
+                        width: 50%
+                        left: 0px
+                        right: 0px
+                        bottom: auto
+                        top: 26%
+                        max-width: 60px
+                        text-align: center
+                        svg
+                            width: 100%
+                            height: 100%
+                    &.service-icon-16
+                        width: 50%
+                        left: 0px
+                        right: 0px
+                        bottom: auto
+                        top: 25%
+                        max-width: 60px
+                        text-align: center
+                        svg
+                            width: 100%
+                            height: 100%
+                .item__title
+                    font-size: 16px
+                    padding: 0px
+                .item-bg
+                    width: 100%
+                    max-width: 130px
+                    height: 200px
+                    text-align: center
+                    margin: 0 auto
+                    &.item-bg-5
+                        .item-bg__img
+                            width: 160%
+                            margin-left: -45px
+                    &.item-bg-6
+                        .item-bg__img
+                            width: 160%
+                            margin-left: -45px
+                    &.item-bg-7
+                        .item-bg__img
+                            width: 120%
+                            margin: 0 auto
+                            text-align: center
+                            margin-left: -5px
+                            margin-top: 20px
+                    &.item-bg-8
+                        .item-bg__img
+                            width: 160%
+                            margin-left: -45px
+                .item__title
+                    font-size: 16px

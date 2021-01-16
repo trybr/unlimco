@@ -1,14 +1,17 @@
 .methods
-    padding-top: 0px
+    padding-top: 55px
     padding-bottom: 97px
     position: relative
+    overflow: hidden
     .method-illustration
         background: url("../img/mass-payments/method-illustration.png") no-repeat
         width: 1115px
         height: 1070px
         position: absolute
-        top: 90px
-        right: -238px
+        top: 9.3%
+        right: -16.5%
+        // top: 117px
+        // right: -238px
     .method-illustration-phone
         display: none
         background: url("../img/mass-payments/method-illustration.png") no-repeat
@@ -91,16 +94,133 @@
                 line-height: 29px
                 letter-spacing: 0.7px
 
-
-@media (max-width: 480px)
+@media (min-width: 768px) and (max-width: 1439px)
     .methods
         overflow: hidden
+        padding-top: 0px
         .method-illustration
             display: none
         
         .method-illustration-phone
             display: block
+            background-size: 80%
+            background-position: 100% center
+            width: 100%
+            height: 540px
+            position: relative
+            top: -39px
+            right: 0px
+            left: 0px
+            max-width: 720px
+            margin: 0 auto
+        .section__title
+            font-size: 32px
+            text-align: left
+            margin-bottom: 5px
+        .section__sub__text
+            font-size: 18px
+            text-align: left
+            &::after
+                bottom: -70px
+                right: auto
+                left: -153px
+        .methods-list
+            width: auto
+            margin-top: -67px
+            .method-item
+                &:nth-child(2)
+                    .title
+                        margin-top: 52px
+                .title-wrapper
+                    margin-bottom: 2px
+                    clear: both
+                    overflow: hidden
+                .icon
+                    margin-left: -17px
+                    width: 118px
+                    .icon__img
+                        width: 100%
+                .title
+                    font-size: 18px
+                    margin-top: 42px
+                    line-height: 24px
+                    margin-left: 22px
 
+                .description
+                    font-size: 14px
+                    line-height: 22px
+
+
+@media (min-width: 481px) and (max-width: 767px)
+    .methods
+        overflow: hidden
+        padding-top: 0px
+        .method-illustration
+            display: none
+        
+        .method-illustration-phone
+            display: block
+            background-size: 80%
+            background-position: 100% center
+            width: 100%
+            height: 540px
+            position: relative
+            top: -39px
+            right: 0px
+            left: 0px
+        .section__title
+            font-size: 32px
+            text-align: left
+            margin-bottom: 5px
+        .section__sub__text
+            font-size: 18px
+            text-align: left
+            &::after
+                bottom: -70px
+                right: auto
+                left: -153px
+        .methods-list
+            width: auto
+            margin-top: -67px
+            .method-item
+                &:nth-child(2)
+                    .title
+                        margin-top: 52px
+                .title-wrapper
+                    margin-bottom: 2px
+                    clear: both
+                    overflow: hidden
+                .icon
+                    margin-left: -17px
+                    width: 118px
+                    .icon__img
+                        width: 100%
+                .title
+                    font-size: 18px
+                    margin-top: 42px
+                    line-height: 24px
+                    margin-left: 22px
+
+                .description
+                    font-size: 14px
+                    line-height: 22px
+
+@media (min-width: 320px) and (max-width: 480px)
+    .methods
+        overflow: hidden
+        padding-top: 0px
+        .method-illustration
+            display: none
+        
+        .method-illustration-phone
+            display: block
+            background-size: 100%
+            width: 555px
+            height: 540px
+            position: relative
+            top: -39px
+            right: 0px
+            left: -135px
         .section__title
             font-size: 32px
             text-align: left

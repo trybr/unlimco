@@ -1,0 +1,318 @@
+.about-new
+    background: none
+    height: auto
+    position: relative
+    .about-payment-logo
+        display: none
+        &.animate__fadeInUp
+            display: block
+    .about-payment-visa
+        position: absolute
+        bottom: 80px
+        width: 163px
+        left: 15px
+        z-index: 1
+        animation-delay: 1s
+        animation: paymentVisa 6s linear infinite
+        -webkit-animation: paymentVisa 6s linear infinite
+    @keyframes paymentVisa
+        0%
+            -webkit-transform: translateY(0px)
+            -ms-transform: translateY(0px) 
+            transform: translateY(0px)
+        25%
+            -webkit-transform: translateY(10px)
+            -ms-transform: translateY(10px) 
+            transform: translateY(10px)
+        50%
+            -webkit-transform: translateY(15px)
+            -ms-transform: translateY(15px) 
+            transform: translateY(15px)
+        75%
+            -webkit-transform: translateY(10px)
+            -ms-transform: translateY(10px) 
+            transform: translateY(10px)
+        100%
+            -webkit-transform: translateY(0px)
+            -ms-transform: translateY(0px) 
+            transform: translateY(0px)
+    .about-payment-mc
+        position: absolute
+        width: 132px
+        top: 65px
+        left: 15px
+        z-index: 1
+        animation-delay: 1.5s
+        animation: paymentMC 4s linear infinite
+        -webkit-animation: paymentMC 4s linear infinite
+    @keyframes paymentMC
+        0%
+            -webkit-transform: translateY(0px)
+            -ms-transform: translateY(0px) 
+            transform: translateY(0px)
+        25%
+            -webkit-transform: translateY(10px)
+            -ms-transform: translateY(10px) 
+            transform: translateY(10px)
+        50%
+            -webkit-transform: translateY(15px)
+            -ms-transform: translateY(15px) 
+            transform: translateY(15px)
+        75%
+            -webkit-transform: translateY(10px)
+            -ms-transform: translateY(10px) 
+            transform: translateY(10px)
+        100%
+            -webkit-transform: translateY(0px)
+            -ms-transform: translateY(0px) 
+            transform: translateY(0px)
+    .about-payment-pp
+        position: absolute
+        width: 160px
+        top: 271px
+        right: 88px
+        z-index: 1
+        animation-delay: 2s
+        animation: paymentPP 5.5s linear infinite
+        -webkit-animation: paymentPP 5.5s linear infinite
+    @keyframes paymentPP
+        0%
+            -webkit-transform: translateY(0px)
+            -ms-transform: translateY(0px) 
+            transform: translateY(0px)
+        25%
+            -webkit-transform: translateY(10px)
+            -ms-transform: translateY(10px) 
+            transform: translateY(10px)
+        50%
+            -webkit-transform: translateY(15px)
+            -ms-transform: translateY(15px) 
+            transform: translateY(15px)
+        75%
+            -webkit-transform: translateY(10px)
+            -ms-transform: translateY(10px) 
+            transform: translateY(10px)
+        100%
+            -webkit-transform: translateY(0px)
+            -ms-transform: translateY(0px) 
+            transform: translateY(0px)
+    &::after
+        content: ''
+        width: 50%
+        height: 995px
+        background: #19d4cd
+        position: absolute
+        left: 0px
+        top: 0px
+    .header-block-1
+        height: 995px
+        position: relative
+    .header-block-2
+        height: auto
+        position: relative
+    .header-block--white
+        background: #ffffff
+    .header-block--blue
+        background: #0092ff
+    .header-block--breeze
+        background: #19d4cd
+        z-index: 2
+        position: relative
+    .header-block-illustration-1
+        width: auto
+        height: 710px
+        background: url("../img/header-new/illustration-1.png") no-repeat
+        position: absolute
+        background-size: contain
+        background-position: center center
+        right: 0px
+        left: 25px
+        margin: 0 auto
+        bottom: -25px
+    .header-block-illustration-2
+        width: auto
+        height: 525px
+        background: url("../img/header-new/illustration-2.png") no-repeat
+        position: absolute
+        background-size: contain
+        background-position: center center
+        right: 0px
+        left: 0px
+        margin: 0 auto
+        bottom: 170px
+
+    .menu
+        margin-top: 55px
+        .menu-item
+            .item__link
+                color: #000000
+    .header-menu
+        margin-left: 0px
+        margin-right: 52px
+        float: right
+        font-size: 14px
+        .menu-item 
+            margin-right: 54px
+            .item__link
+                letter-spacing: 0.4px
+    .header-contacts-menu
+        margin-left: 0px
+        .menu-item
+            position: relative
+            margin-right: 65px
+            &::before
+                content: ''
+                width: 5px
+                height: 5px
+                border-radius: 50%
+                position: absolute
+                top: 11px
+                left: -15px
+                display: block
+                background: #ffffff
+            .item__link
+                letter-spacing: 0.4px
+                color: #ffffff
+            &.item-email
+                .item__link
+                    font-size: 14px
+
+    .logo-new
+        background: none
+        float: left
+        margin-top: 45px
+
+
+    .header-about
+        padding-left: 89px
+        .title
+            font-size: 54px
+            color: #000000
+            margin-top: 139px
+            margin-bottom: 68px
+            font-weight: 600
+            font-style: normal
+        .description
+            font-size: 18px
+            color: #8297b3
+            font-weight: 500
+            font-style: normal
+            letter-spacing: 0.4px
+            line-height: 32px
+            padding-bottom: 20px
+            ul
+                list-style: none
+                padding-left: 0px
+
+    .header-info
+        margin-left: 0px
+    .header__title
+        width: auto
+        margin-top: 215px
+        margin-bottom: 66px
+        font-family: 'Gilroy' , sans-serif
+        
+        .title__first
+            color: #000000
+            font-size: 88px
+            font-weight: 600
+            letter-spacing: 3.4px
+        .title__second
+            font-size: 54px
+            color: #0092ff
+            font-weight: 600
+            line-height: 60px
+            margin-top: 31px
+            letter-spacing: -0.6px
+    .header__text
+        color: #8297b3
+        font-size: 18px
+        line-height: 33px
+
+    .header-buttons-wrapper
+        margin-top: 147px
+        margin-left: 0px
+        .btn-wrapper
+            display: block
+            margin-right: 32px
+            float: left
+            position: relative
+        .header-btn
+            display: block
+            text-align: left
+            line-height: 85px
+            text-decoration: none
+            color: #ffffff
+            border-radius: 5px
+            font-style: normal
+            &:last-child
+                margin-right: 0px
+            .btn__title
+                font-size: 16px
+                letter-spacing: 0.4px
+                font-weight: 500
+                padding-left: 45px
+        .request-btn
+            position: relative
+            width: 256px
+            height: 86px
+            z-index: 1
+            .btn-icon
+                position: absolute
+                top: 35px
+                right: 23px
+                opacity: 1
+                transition: all 0.2s
+            &:hover
+                .btn-icon
+                    opacity: 1
+
+@media (min-width: 768px) and (max-width: 1439px)
+    .about-new
+        &::after
+            display: none
+        .header-block--white
+            height: auto
+        .header-block--breeze
+            display: none
+        .header-about
+            padding-left: 0px
+            .title
+                font-size: 32px
+                margin-bottom: 20px
+                margin-top: 80px
+        .about-payment-visa
+            width: 130px
+            bottom: 25px
+            left: 15px
+        .about-payment-mc
+            width: 130px
+        .about-payment-pp
+            width: 130px
+            right: 15px
+            top: 250px
+            
+@media (min-width: 320px) and (max-width: 767px)
+    .about-new
+        &::after
+            display: none
+        .header-block--white
+            height: auto
+        .header-block--breeze
+            display: none
+        .header-about
+            padding-left: 0px
+            .title
+                font-size: 32px
+                margin-bottom: 20px
+                margin-top: 80px
+        .about-payment-visa
+            width: 130px
+            bottom: 25px
+            left: 15px
+        .about-payment-mc
+            width: 130px
+        .about-payment-pp
+            width: 130px
+            right: 15px
+            top: 250px

@@ -1,0 +1,108 @@
+.sidebar-menu-open
+    .sidebar-phone-menu
+        transform: translate3d(0px,0,0)
+    
+.sidebar-phone-menu
+    background: #188b92
+    position: fixed
+    width: 200px
+    height: 100%
+    top: 0px
+    left: 0px
+    z-index: 9999
+    overflow: auto
+    padding-bottom: 50px
+    -webkit-overflow-scrolling: touch
+    transition: transform .2s cubic-bezier(.16,.68,.43,.99)
+    transform: translate3d(-200px,0,0)
+    .sidebar-close-btn
+        position: absolute
+        top: 0px
+        right: 10px
+        font-size: 24px
+        color: #fff
+        width: 35px
+        height: 35px
+        text-align: center
+        z-index: 10
+    .menu-content
+        position: relative
+        padding-top: 50px
+        .menu
+            padding: 0px
+            margin: 0px
+            list-style: none
+            margin-left: 24px
+            margin-right: 24px
+            .menu-item
+                margin-bottom: 15px
+                &:last-child
+                    margin-bottom: 0px
+                .item__link
+                    color: #ffffff
+                    padding: 0px
+                    font-size: 16px
+                    &.selected
+                        border-bottom: 1px solid #fff
+            &.contacts-menu
+                margin-top: 56px
+                .form-control
+                    font-size: 14px
+                    height: auto
+                    width: 54px
+                    background: none
+                    border: none
+                    border-radius: 5px
+                    padding: 5px 5px
+                    color: #fff
+                    outline: none
+    
+    .sidebar-menu-btn
+        background: rgb(0,143,201)
+        background: linear-gradient(43deg, rgba(0,143,201,1) 0%, rgba(0,173,169,1) 100%)
+        -webkit-box-shadow: 0 0 25px 0px rgba(0,0,0,.1)
+        -moz-box-shadow: 0 0 25px 0px rgba(0,0,0,.1)
+        box-shadow: 0 0 25px 0px rgba(0,0,0,.1)
+        border-top: 3px solid #ffffff
+        border-right: 3px solid #ffffff
+        border-bottom: 3px solid #ffffff
+        border-radius: 0px 5px 5px 0px
+        width: 35px
+        height: 100px
+        cursor: pointer
+        position: absolute
+        top: -100px
+        left: 0
+        display: none
+
+        .menu-lines
+            width: 80%
+            margin: 0 auto
+            margin-top: 10px
+            margin-bottom: 30px
+            .menu-line
+                background: #ffffff
+                width: 100%
+                height: 2px
+                margin-bottom: 3px
+                display: block
+
+        .menu-title
+            color: #ffffff
+            -webkit-transform: rotate(-90deg)
+            -moz-transform: rotate(-90deg)
+            -o-transform: rotate(-90deg)
+            -ms-transform: rotate(-90deg)
+            transform: rotate(-90deg)
+
+
+
+@media (min-width: 768px) and (max-width: 1439px)
+    .sidebar-phone-menu
+        .sidebar-menu-btn
+            display: block
+
+@media (min-width: 320px) and (max-width: 767px)
+    .sidebar-phone-menu
+        .sidebar-menu-btn
+            display: block

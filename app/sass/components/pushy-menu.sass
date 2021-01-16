@@ -1,0 +1,122 @@
+.pushy
+    width: 320px
+    &.pushy-sidebar
+        width: 180px
+        padding-top: 50px
+
+.pushy-left
+    transform: translate3d(-180px,0,0)
+
+
+.pushy-open-left #container,
+.pushy-open-left .push 
+    transform: translate3d(180px, 0, 0)
+
+
+.pushy-right 
+    transform: translate3d(320px, 0, 0)
+
+
+.pushy-open-right #container,
+.pushy-open-right .push 
+    transform: translate3d(-320px, 0, 0)
+
+.pushy
+    background: #188b92
+    &.pushy-new
+        background: #0092ff
+    .header-menu-btn
+        position: absolute
+        top: 0px
+        right: 10px
+        font-size: 24px
+        color: #fff
+        width: 35px
+        height: 35px
+        text-align: center
+        z-index: 10
+    .pushy-content
+        position: relative
+        .menu
+            padding: 0px
+            margin: 0px
+            list-style: none
+            margin-left: 24px
+            .menu-item
+                margin-bottom: 15px
+                &:last-child
+                    margin-bottom: 0px
+                .item__link
+                    color: #ffffff
+                    padding: 0px
+                    font-size: 16px
+            &.contacts-menu
+                margin-top: 56px
+                .form-control
+                    font-size: 14px
+                    height: auto
+                    width: 54px
+                    background: none
+                    border: none
+                    border-radius: 5px
+                    padding: 5px 5px
+                    color: #fff
+                    outline: none
+                .dropdown-toggle
+                    font-size: 14px
+                    height: auto
+                    background: none
+                    border: none
+                    border-radius: 5px
+                    padding: 5px 5px
+                    color: #fff
+                    outline: none
+                .menu-item-language
+                    font-size: 14px
+                    font-weight: 500
+                    font-style: normal
+                    &::after
+                        display: none
+                    .dropdown-menu
+                        min-width: 60px
+                        .dropdown-item
+                            font-size: 14px
+                            font-weight: 500
+                            font-style: normal
+                            position: relative
+                            background: none !important
+                            color: #414141
+                            &.active
+                                &::after
+                                    content: ''
+                                    position: absolute
+                                    bottom: 5px
+                                    width: 70%
+                                    height: 4px
+                                    background: #1fbdc5
+                                    left: 0
+                                    right: 0
+                                    z-index: 0
+                                    margin: 0 auto
+                            &:hover
+                                &::after
+                                    content: ''
+                                    position: absolute
+                                    bottom: 5px
+                                    width: 70%
+                                    height: 4px
+                                    background: #1fbdc5
+                                    left: 0
+                                    right: 0
+                                    z-index: 0
+                                    margin: 0 auto
+
+        .logo
+            width: 140px
+            height: 30px
+            background: url("../img/logo.svg") no-repeat
+            background-size: 100%
+            max-width: 140px  
+            margin-top: 24px
+            margin-left: 24px
+            margin-bottom: 56px

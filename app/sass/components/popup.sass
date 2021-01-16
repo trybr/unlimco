@@ -1,0 +1,262 @@
+.fancybox-close-small
+	display: none !important
+    
+.popup
+    display: none
+    width: 950px
+    height: 700px
+    border-radius: 5px
+    text-align: center
+    background: none
+    position: relative
+    -ms-overflow-style: none
+    scrollbar-width: none
+    
+    &::-webkit-scrollbar
+        width: 0px
+        background: transparent
+
+    .popup-close-btn
+        position: absolute
+        top: 0px
+        right: 0px
+        font-size: 30px
+        color: #2ba3b7
+        width: 35px
+        z-index: 10
+    
+    .popup-title
+        font-size: 55px
+        font-weight: 900
+        font-style: normal
+        text-align: center
+        line-height: normal
+        color: #ffffff
+        margin-bottom: 55px
+        position: relative
+        z-index: 1
+
+    .field-wrapper
+        height: 75px
+        border-radius: 25px
+        margin-bottom: 23px
+        background: #ffffff
+        &:last-child
+            margin-bottom: 0px
+        .field-title
+            float: left
+            font-size: 18px
+            padding: 23px 0px
+            position: relative
+            width: 280px
+            &::after
+                content: ''
+                background: #c0c0c0
+                height: 52px
+                width: 1px
+                position: absolute
+                top: 11px
+                right: 0px
+
+        .field-input
+            float: left
+            width: 65%
+            height: 100%
+            border: none
+            border-radius: 0px 25px 25px 0px
+            outline: none
+            text-align: center
+            &::-webkit-input-placeholder
+                color: #bdbebf
+                font-size: 18px
+            &::-moz-placeholder
+                color: #bdbebf
+                font-size: 18px
+            &:-ms-input-placeholder
+                color: #bdbebf
+                font-size: 18px
+            &:-moz-placeholder
+                color: #bdbebf
+                font-size: 18px
+
+
+    .form-request__agreement
+        color: #ffffff
+
+    input[type="checkbox"]:checked ~ .form-request__checkbox:before
+        background: #23bcc5
+
+    .form-request__agreement
+        width: 570px
+        font-size: 16px
+        color: #ffffff
+        line-height: 22px
+        text-align: left
+        margin: 0 auto 15px
+        padding-left: 50px
+        position: relative
+
+    .form-request__checkbox 
+        height: 30px
+        width: 30px
+        position: absolute
+        left: 0
+        top: 0
+        border: 1px solid #d4d4d5
+        background: #fff
+        border-radius: 3px
+
+
+    input[type="checkbox"] 
+        opacity: 0
+        position: absolute
+        left: 0
+        top: 0
+        height: 30px
+        width: 30px
+
+
+    input[type="checkbox"]:checked ~ .form-request__checkbox:before 
+        content: ""
+        display: block
+        position: absolute
+        height: 20px
+        width: 20px
+        border-radius: 3px
+        left: 4px
+        top: 4px
+        background: #1fbdc5
+
+    p
+        a
+            text-decoration: underline
+            color: #ffffff
+
+
+    .mf-captcha
+        text-align: center
+        color: #fff
+        margin: 0 auto
+
+    .popup-submit-btn
+        font-size: 13px
+        color: #ffffff
+        display: block
+        width: 275px
+        height: 85px
+        line-height: 85px
+        text-decoration: none
+        margin: 0px auto
+        text-align: left
+        margin-top: 35px
+        border-radius: 5px
+        border: none
+        margin-bottom: 50px
+        outline: none
+        background: #42c9f5
+        .btn__title
+            font-size: 18px
+            letter-spacing: 1.8px
+            font-weight: 600
+            padding-left: 40px
+
+
+@media (min-width: 768px) and (max-width: 1439px)
+    .popup
+        display: none
+        width: 100%
+        max-width: 768px
+        margin: 0 auto
+        height: auto
+
+        
+        .popup-title
+            font-size: 30px
+            margin-bottom: 30px
+
+        .field-wrapper
+            height: auto
+            overflow: hidden
+            clear: both
+            padding-bottom: 25px
+            .field-title
+                width: 100%
+                float: none
+                padding: 15px 0
+                font-size: 16px
+                &::after
+                    display: none
+
+            .field-input
+                width: 100%
+                float: none
+                &::-webkit-input-placeholder
+                    color: #bdbebf
+                    font-size: 16px
+                &::-moz-placeholder
+                    color: #bdbebf
+                    font-size: 16px
+                &:-ms-input-placeholder
+                    color: #bdbebf
+                    font-size: 16px
+                &:-moz-placeholder
+                    color: #bdbebf
+                    font-size: 16px
+
+@media (min-width: 320px) and (max-width: 767px)
+    .popup
+        display: none
+        width: 100%
+        height: auto
+
+        
+        .popup-title
+            font-size: 30px
+            margin-bottom: 30px
+
+        .field-wrapper
+            height: auto
+            overflow: hidden
+            clear: both
+            padding-bottom: 25px
+            .field-title
+                width: 100%
+                float: none
+                padding: 15px 0
+                font-size: 16px
+                &::after
+                    display: none
+
+            .field-input
+                width: 100%
+                float: none
+                &::-webkit-input-placeholder
+                    color: #bdbebf
+                    font-size: 16px
+                &::-moz-placeholder
+                    color: #bdbebf
+                    font-size: 16px
+                &:-ms-input-placeholder
+                    color: #bdbebf
+                    font-size: 16px
+                &:-moz-placeholder
+                    color: #bdbebf
+                    font-size: 16px
+
+        .popup-submit-btn
+            width: 100%
+            max-width: 275px
+            .btn__title
+                font-size: 15px
+                letter-spacing: 1.8px
+                font-weight: 600
+                padding-left: 10%
+        .btn-wrapper-popup
+            &::after
+                width: 100%
+                max-width: 275px
+
+        .form-request__agreement
+            width: 100%
+
+    

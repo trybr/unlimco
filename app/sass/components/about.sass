@@ -1,28 +1,50 @@
 .about
     background: #ffffff
-    padding-top: 76px
-    padding-bottom: 73px
+    padding-top: 130px
+    padding-bottom: 130px
+    background: url("../img/about-waves.png") no-repeat
+    background-position: right bottom
+    position: relative
+    &::after
+        content: ''
+        width: 855px
+        height: 375px
+        border-radius: 15px
+        background: #f6fdff
+        position: absolute
+        top: 28%
+        right: 0%
+        z-index: 0
     .section__title
-        font-size: 55px
-        color: #d9d9d9
-        font-weight: 900
+        font-size: 45px
+        color: #070707
         font-style: normal
         text-align: left
         margin-bottom: 46px
+        font-weight: 500
+        font-family: 'Lato'
+        position: relative
+        z-index: 1
     .section__text
         color: #393b3e
         font-weight: 300
         font-style: normal
         margin: 0px
-        letter-spacing: 1.8px
+        letter-spacing: 0.6px
         line-height: 32px
+        font-size: 18px
+        position: relative
+        z-index: 1
+        padding-right: 25px
 
     .about-partners
         list-style: none
         padding: 0px
         margin: 0px
-        margin-left: 90px
+        margin-left: 50px
         margin-top: 108px
+        position: relative
+        z-index: 1
         .partner-item
             float: left
             margin-bottom: 26px
@@ -30,4 +52,80 @@
             &:nth-child(2n+2)
                 float: none
                 margin-right: 0px
-                
+
+@media (min-width: 1200px) and (max-width: 1439px)
+    .about
+        padding-top: 40px
+        padding-bottom: 40px
+        .section__title
+            font-size: 32px
+            text-align: left
+            margin-bottom: 0px
+        .section__text
+            font-size: 18px
+            text-align: left
+            margin-top: 20px
+            margin-bottom: 35px
+
+        .about-partners
+            margin: 0 auto
+            margin-top: 60px
+            .partner-item
+                width: 45%!important
+                margin-right: 5% !important
+                float: left!important
+                .item__img
+                    width: 100%
+                    max-width: 190px   
+
+@media (min-width: 768px) and (max-width: 1199px)
+    .about
+        padding-top: 40px
+        padding-bottom: 40px
+        .section__title
+            font-size: 32px
+            text-align: left
+            margin-bottom: 0px
+        .section__text
+            font-size: 18px
+            text-align: left
+            margin-top: 20px
+            margin-bottom: 35px
+
+        .about-partners
+            margin-top: 0px
+            margin: 0 auto
+            float: left
+            width: 45%
+            .partner-item
+                width: 45%!important
+                margin-right: 5% !important
+                float: left!important
+                .item__img
+                    width: 100%
+                    max-width: 130px
+
+@media (min-width: 320px) and (max-width: 767px)
+    .about
+        padding-top: 40px
+        padding-bottom: 40px
+        .section__title
+            font-size: 32px
+            text-align: left
+            margin-bottom: 0px
+        .section__text
+            font-size: 18px
+            text-align: left
+            margin-top: 20px
+            margin-bottom: 35px
+
+        .about-partners
+            margin-top: 0px
+            margin: 0 auto
+            .partner-item
+                width: 45%!important
+                margin-right: 5% !important
+                float: left!important
+                .item__img
+                    width: 100%
+                    max-width: 130px

@@ -1,0 +1,210 @@
+.page-sidebar
+    background: #ffffff
+    border-radius: 50px
+    -webkit-box-shadow: 0 0 25px 0px rgba(0,0,0,.1)
+    -moz-box-shadow: 0 0 25px 0px rgba(0,0,0,.1)
+    box-shadow: 0 0 25px 0px rgba(0,0,0,.1)
+    padding: 12px 15px
+    margin-bottom: 50px
+    .sidebar-container
+        background: rgb(0,143,201)
+        background: linear-gradient(43deg, rgba(0,143,201,1) 0%, rgba(0,173,169,1) 100%)
+        border-radius: 35px
+        height: 100%
+        min-height: 550px
+        position: relative
+        .sidebar-menu
+            list-style: none
+            padding: 0px
+            margin: 0px
+            padding: 52px 0px 52px 41px
+            letter-spacing: 0.6px
+            .menu-item
+                margin-bottom: 44px
+                padding-right: 25px
+                transition: all 0.2s
+                position: relative
+                &:last-child
+                    margin-bottom: 0px
+                .item__link
+                    color: #ffffff
+                    font-size: 19px
+                    font-weight: 500
+                    font-style: normal
+                    text-decoration: none
+                    position: relative
+                    z-index: 1
+                    .link__title
+                        position: relative
+                        z-index: 1
+                    &::after
+                        content: ''
+                        position: absolute
+                        bottom: 0px
+                        width: 100%
+                        height: 0px
+                        background: transparent
+                        left: 0px
+                        right: 0px
+                        z-index: 0
+                        transition: all 0.2s
+
+                &.active
+                    .item__link
+                        &::after
+                            content: ''
+                            position: absolute
+                            bottom: 0px
+                            width: 100%
+                            height: 7px
+                            background: #1fbdc5
+                            left: 0px
+                            right: 0px
+                            z-index: 0
+                &:hover
+                    .item__link
+                        &::after
+                            content: ''
+                            position: absolute
+                            bottom: 0px
+                            width: 100%
+                            height: 7px
+                            background: #1fbdc5
+                            left: 0px
+                            right: 0px
+                            z-index: 0
+        .sidebar-buttons
+            .button-one
+                position: absolute
+                width: 15px
+                height: 30px
+                left: -17px
+                top: 96px
+                background: #fff
+                border-radius: 5px
+
+            .button-two
+                position: absolute
+                width: 15px
+                height: 60px
+                left: -17px
+                top: 155px
+                background: #fff
+                border-radius: 5px
+
+            .button-three
+                position: absolute
+                width: 15px
+                height: 60px
+                left: -17px
+                top: 225px
+                background: #fff
+                border-radius: 5px
+
+            
+            .button-four
+                position: absolute
+                width: 15px
+                height: 95px
+                right: -17px
+                top: 174px
+                background: #fff
+                border-radius: 5px
+
+.dropdown-sidebar
+    background: rgb(0,143,201)
+    background: linear-gradient(43deg, rgba(0,143,201,1) 0%, rgba(0,173,169,1) 100%)
+    border-radius: 5px
+    height: 70px
+    -webkit-box-shadow: 0 0 25px 0px rgba(0,0,0,.1)
+    -moz-box-shadow: 0 0 25px 0px rgba(0,0,0,.1)
+    box-shadow: 0 0 25px 0px rgba(0,0,0,.1)
+    border: 3px solid #ffffff
+    display: none
+    margin-top: -100px
+    &.show
+        .dropdown-toggle
+            .caret
+                transform: rotate(-180deg)
+                -moz-transform: rotate(-180deg)
+                -ms-transform: rotate(-180deg)
+                -webkit-transform: rotate(-180deg)
+                -o-transform: rotate(-180deg)
+    .dropdown-toggle
+        width: 100%
+        height: 100%
+        line-height: 55px
+        font-size: 19px
+        font-weight: 500
+        font-style: normal
+        text-align: left
+        padding-left: 30px
+        color: #ffffff
+        &::after
+            display: none
+        .caret
+            background: url("../img/dropdown-caret.png") no-repeat
+            width: 26px
+            height: 13px
+            display: block
+            position: absolute
+            top: 26px
+            right: 24px
+    .dropdown-menu
+        width: 100%
+        border-radius: 5px
+
+.sidebar-menu-btn
+    background: rgb(0,143,201)
+    background: linear-gradient(43deg, rgba(0,143,201,1) 0%, rgba(0,173,169,1) 100%)
+    -webkit-box-shadow: 0 0 25px 0px rgba(0,0,0,.1)
+    -moz-box-shadow: 0 0 25px 0px rgba(0,0,0,.1)
+    box-shadow: 0 0 25px 0px rgba(0,0,0,.1)
+    border-top: 3px solid #ffffff
+    border-right: 3px solid #ffffff
+    border-bottom: 3px solid #ffffff
+    border-radius: 0px 5px 5px 0px
+    width: 35px
+    height: 100px
+    cursor: pointer
+    position: absolute
+    top: -100px
+    left: 0
+    display: none
+
+    .menu-lines
+        width: 80%
+        margin: 0 auto
+        margin-top: 10px
+        margin-bottom: 30px
+        .menu-line
+            background: #ffffff
+            width: 100%
+            height: 2px
+            margin-bottom: 3px
+            display: block
+
+    .menu-title
+        color: #ffffff
+        -webkit-transform: rotate(-90deg)
+        -moz-transform: rotate(-90deg)
+        -o-transform: rotate(-90deg)
+        -ms-transform: rotate(-90deg)
+        transform: rotate(-90deg)
+
+
+@media (min-width: 768px) and (max-width: 1439px)
+    .dropdown-sidebar
+        display: block
+    .page-sidebar
+        display: none
+    .sidebar-menu-btn
+        display: block
+
+@media (min-width: 320px) and (max-width: 767px)
+    .dropdown-sidebar
+        display: block  
+    .page-sidebar
+        display: none
+    .sidebar-menu-btn
+        display: block

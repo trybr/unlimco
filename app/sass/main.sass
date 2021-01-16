@@ -8,21 +8,72 @@ body
 	position: relative
 	line-height: 1.65
 	font-family: 'Gilroy' , sans-serif
-	overflow-x: hidden
 	background: #ffffff
+
+
+@media (min-width: 1200px)
+	.container 
+		max-width: 1440px
 
 @media (max-width: 1900px)
 	.container 
 		max-width: 1440px
 
+@media (min-width: 768px)
+	.col-md-4
+		-ms-flex: 0 0 100%
+		flex: 0 0 100%
+		max-width: 100%
+
+@media (min-width: 1024px)
+	.col-md-4
+		-ms-flex: 0 0 33.333333%
+		flex: 0 0 33.333333%
+		max-width: 33.333333%
+
 .hidden
 	display: none
+
+.main-wrapper
+	overflow: hidden
+
+#payForm
+    width: 378px
+    height: 798px
+    border: none
+    position: absolute
+    top: 40px
+    left: 42px
+    border-radius: 50px
+
+.services-phone
+    position: absolute
+    max-width: 432px
+    max-height: 900px
+    top: 192px
+    right: 0
+    left: -32px
+    margin: 0 auto
+    z-index: 2
+
+.services-phone:before
+	content: ''
+	width: 559px
+	height: 560px
+	position: absolute
+	top: 100px
+	left: -47px
+	z-index: -1
+	background: url("../img/services-phone-circle.png")
+	background-repeat: no-repeat
+
 
 // components
 @import "_fonts.sass"
 @import "_buttons.sass"
 @import "_libs.sass"
 @import "components/header.sass"
+@import "components/header-mass-payments.sass"
 @import "components/about.sass"
 @import "components/services.sass"
 @import "components/comparison.sass"
@@ -32,3 +83,30 @@ body
 @import "components/about-inner.sass"
 @import "components/methods.sass"
 @import "components/faq.sass"
+@import "components/page-annotation.sass"
+
+@import "components/page-content.sass"
+@import "components/page-contacts.sass"
+@import "components/page-sidebar.sass"
+@import "components/page-rates.sass"
+@import "components/page-htc.sass"
+
+@import "components/pushy-menu.sass"
+@import "components/sidebar-phone-menu.sass"
+@import "components/popup.sass"
+
+// new
+@import "components/index-new/header.sass"
+@import "components/index-new/header-new-inner.sass"
+@import "components/index-new/comparison.sass"
+@import "components/index-new/services.sass"
+@import "components/index-new/conversion.sass"
+@import "components/index-new/partners.sass"
+@import "components/index-new/about-new.sass"
+@import "components/index-new/footer.sass"
+
+// contacts
+@import "components/contacts-new/page-contacts.sass"
+
+// breadcrumbs
+@import "components/breadcrumbs.sass"

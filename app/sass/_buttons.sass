@@ -6,16 +6,248 @@
     background: rgba( 255, 255, 255, 0.2)
 
 .btn-blue
-	background: #0f3af1
+	background: #42c9f5
 
 .btn-blue:hover
-    background: darken(#0f3af1, 5%)
+    background: lighten(#42c9f5, 5%)
+
+.btn-blue-new
+	background: #0092ff
+
+.btn-blue-new:hover
+    background: lighten(#0092ff, 5%)
 
 .btn-breeze
-	background: #1fbdc5
+	background: #2bcdd5
 
 .btn-breeze:hover
-    background: darken(#1fbdc5, 5%)
+    background: lighten(#2bcdd5, 5%)
+
+.btn-breeze-new
+	background: #19d4cd
+
+.btn-breeze-new:hover
+    background: lighten(#19d4cd, 5%)
 
 .button
     transition: all 0.2s
+    display: block
+
+.registration-btn
+    position: relative
+    width: 225px
+    height: 85px
+    z-index: 1
+    .btn-icon
+        position: absolute
+        top: 32px
+        right: 25px
+        opacity: 0.4
+        transition: all 0.2s
+    &:hover
+        .btn-icon
+            opacity: 0.6
+
+.registration-btn-new
+    position: relative
+    width: 256px
+    height: 86px
+    z-index: 1
+    .btn-icon
+        position: absolute
+        top: 37px
+        right: 33px
+        opacity: 1
+        transition: all 0.2s
+    &:hover
+        .btn-icon
+            opacity: 1
+
+.tariff-btn
+    position: relative
+    z-index: 1
+    .btn-icon
+        position: absolute
+        top: 35px
+        right: 40px
+        opacity: 1
+        transition: all 0.2s
+    &:hover
+        .btn-icon
+            opacity: 1
+
+.footer-request-btn
+    position: relative
+    z-index: 1
+    .btn-icon
+        position: absolute
+        top: 32px
+        right: 25px
+        opacity: 0.4
+        transition: all 0.2s
+    &:hover
+        .btn-icon
+            opacity: 0.6
+
+.footer-request-btn-new
+    position: relative
+    z-index: 1
+    .btn-icon
+        position: absolute
+        top: 37px
+        right: 33px
+        opacity: 1
+        transition: all 0.2s
+    &:hover
+        .btn-icon
+            opacity: 1
+
+.popup-submit-btn
+    position: relative
+    z-index: 1
+    .btn-icon
+        position: absolute
+        top: 32px
+        right: 25px
+        opacity: 0.4
+        transition: all 0.2s
+    &:hover
+        .btn-icon
+            opacity: 0.6
+
+
+.btn-wrapper-brezee
+    position: relative
+    &::after
+        content: ''
+        display: block
+        width: 225px
+        height: 85px
+        background: #2d98b2
+        position: absolute
+        bottom: -8px
+        left: -8px
+        right: 0px
+        z-index: 0
+        border-radius: 5px
+        transition: all 0.2s
+    &.btn-wrapper-tariff
+        float: left
+        &::after
+            width: 330px
+            height: 85px
+            background: #d5f0e9
+    &:hover
+        &::after
+            bottom: -10px
+            left: -10px
+            background: darken(#2d98b2, 1%)
+        &.btn-wrapper-tariff
+            &::after
+                bottom: -10px
+                left: -10px
+                background: darken(#d5f0e9, 1%)
+
+.btn-wrapper-blue
+    position: relative
+    &::after
+        content: ''
+        display: block
+        width: 275px
+        height: 85px
+        background: #1c96c5
+        position: absolute
+        bottom: -8px
+        left: -8px
+        right: 0px
+        z-index: 0
+        border-radius: 5px
+        transition: all 0.2s
+    &.btn-wrapper-footer
+        &::after
+            margin: 0 auto
+            left: -15px
+            bottom: -8px
+            background: #b7ecfc
+    &.btn-wrapper-popup
+        &::after
+            margin: 0 auto
+            left: -15px
+            bottom: -8px
+            background: #b7ecfc
+    &:hover
+        &::after
+            bottom: -10px
+            left: -10px
+            background: darken(#1c96c5, 1%)
+
+        &.btn-wrapper-footer
+            &::after
+                margin: 0 auto
+                left: -17px
+                bottom: -10px
+                background: #b7ecfc
+
+        &.btn-wrapper-popup
+            &::after
+                margin: 0 auto
+                left: -17px
+                bottom: -10px
+                background: #b7ecfc
+
+
+.btn-wrapper-blue-new
+    position: relative
+    &::after
+        content: ''
+        display: block
+        width: 256px
+        height: 86px
+        background: #a6d9ff
+        position: absolute
+        bottom: -4px
+        left: -4px
+        right: 0px
+        z-index: 0
+        border-radius: 5px
+        transition: all 0.2s
+    &:hover
+        &::after
+            bottom: -6px
+            left: -6px
+            background: darken(#a6d9ff, 1%)
+
+.btn-wrapper-brezee-new
+    position: relative
+    &::after
+        content: ''
+        display: block
+        width: 256px
+        height: 86px
+        background: #aff0ee
+        position: absolute
+        bottom: -4px
+        left: -4px
+        right: 0px
+        z-index: 0
+        border-radius: 5px
+        transition: all 0.2s
+    &:hover
+        &::after
+            bottom: -6px
+            left: -6px
+            background: darken(#aff0ee, 1%)
+    &.btn-wrapper-tariff
+        float: left
+        margin-bottom: 95px
+        &::after
+            width: 306px
+            height: 86px
+            background: #19d4cd
+            opacity: 0.55
+    &:hover
+        &.btn-wrapper-tariff
+            &::after
+                bottom: -6px
+                left: -6px
+                background: darken(#19d4cd, 1%)

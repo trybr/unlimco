@@ -1,13 +1,16 @@
 .conversion
+    padding-top: 90px
     padding-bottom: 68px
     .section__title
-        color: #27292c
-        font-weight: 900
+        letter-spacing: 1.2px
+        font-family: 'Lato'
         font-style: normal
+        font-size: 45px
+        color: #080808
+        font-weight: 500
         text-align: left
-        font-size: 55px
         margin-bottom: 44px
-        margin-top: 9px
+        margin-top: 35%
         letter-spacing: 1px
     .section__text
         font-size: 18px
@@ -17,16 +20,91 @@
         font-style: normal
         letter-spacing: 0.4px
 
+    .conversion-box
+        position: absolute
+        top: 65px
+        right: 0px
+        left: 0px
+        .box-icon
+            background: url("../img/conversion/box-1.png") no-repeat
+            background-position: center center
+            width: 356px
+            height: 329px
+            position: absolute
+            top: 0px
+            left: 0px
+            &.animate__fadeInUp
+                display: block
+
+
+        .box-arrow-1
+            background: url("../img/conversion/arrow-1.png") no-repeat
+            background-position: center center
+            width: 212px
+            height: 67px
+            position: absolute
+            top: -25px
+            right: 0px
+            display: none
+            &.animate__fadeInLeft
+                display: block
+        .box-arrow-2
+            background: url("../img/conversion/arrow-2.png") no-repeat
+            background-position: center center
+            width: 251px
+            height: 115px
+            position: absolute
+            top: 300px
+            right: 0px
+            display: none
+            &.animate__fadeInLeft
+                display: block
+        .box-component-1
+            background: url("../img/conversion/component-1.png") no-repeat
+            background-position: center center
+            width: 96px
+            height: 81px
+            position: absolute
+            top: 143px
+            right: 61px
+            display: none
+            &.animate__fadeInUp
+                display: block
+        .box-component-2
+            background: url("../img/conversion/component-2.png") no-repeat
+            background-position: center center
+            width: 104px
+            height: 80px
+            position: absolute
+            top: 226px
+            right: 35px
+            display: none
+            &.animate__fadeInUp
+                display: block
+        .box-component-3
+            background: url("../img/conversion/component-3.png") no-repeat
+            background-position: center center
+            width: 105px
+            height: 80px
+            position: absolute
+            top: 285px
+            left: 28px
+            display: none
+            &.animate__fadeInUp
+                display: block
+
     .conversion-data
         padding-top: 15px
         padding-left: 42px
         padding-bottom: 38px
-        border: 7px solid #d8edf0
-        border-radius: 50px
+        border: 7px solid #e2fffe
+        border-radius: 15px
         margin-top: -25px
         padding-right: 20px
+        min-height: 268px
         &.conversion-data-full-bg
-            background: #d8edf0
+            background: #e2fffe
+            margin-top: 15px
         .data__number
             color: #1fbdc5
             font-size: 72px
@@ -41,3 +119,74 @@
             font-style: normal
             text-align: left
             margin: 0px
+
+
+@media (min-width: 1024px) and (max-width: 1439px)
+    .conversion
+        padding-top: 40px
+        padding-bottom: 40px
+        .section__title
+            font-size: 32px
+            text-align: left
+            margin-bottom: 0px
+            margin-top: 0px
+        .section__text
+            font-size: 18px
+            text-align: left
+            margin-top: 20px
+            margin-bottom: 35px
+
+        .conversion-data
+            margin-top: 0px
+            margin-bottom: 15px
+
+        .conversion-box
+            display: block
+            .box-icon
+                left: -138px
+            .box-component-3
+                left: -128px
+
+@media (min-width: 768px) and (max-width: 1023px)
+    .conversion
+        padding-top: 40px
+        padding-bottom: 40px
+        .section__title
+            font-size: 32px
+            text-align: left
+            margin-bottom: 0px
+            margin-top: 0px
+        .section__text
+            font-size: 18px
+            text-align: left
+            margin-top: 20px
+            margin-bottom: 35px
+
+        .conversion-data
+            margin-top: 0px
+            margin-bottom: 15px
+
+        .conversion-box
+            display: none
+
+@media (min-width: 320px) and (max-width: 767px)
+    .conversion
+        padding-top: 40px
+        padding-bottom: 40px
+        .section__title
+            font-size: 32px
+            text-align: left
+            margin-bottom: 0px
+            margin-top: 0px
+        .section__text
+            font-size: 18px
+            text-align: left
+            margin-top: 20px
+            margin-bottom: 35px
+
+        .conversion-data
+            margin-top: 0px
+            margin-bottom: 15px
+
+        .conversion-box
+            display: none

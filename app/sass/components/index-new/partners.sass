@@ -1,0 +1,181 @@
+.partners
+    position: relative
+    z-index: 1
+    .partners-angle
+        background: url("../img/partners-bg.png") no-repeat
+        width: 345px
+        height: 367px
+        position: absolute
+        top: 0px
+        right: -100px
+        opacity: 0.5
+        z-index: 3
+    &::after
+        content: ''
+        width: 50%
+        height: 100%
+        background: #14afff
+        position: absolute
+        left: 0px
+        top: 0px
+    &::before
+        content: ''
+        width: 50%
+        height: 100%
+        background: #0091fd
+        position: absolute
+        right: 0px
+        top: 0px
+    .container
+        position: relative
+        z-index: 2
+    .partners-items
+        position: relative
+        z-index: 3
+    .partners-left-block
+        background: #14afff
+        height: 537px
+        .partners__title
+            color: #ffffff
+            font-size: 28px
+            text-align: left
+            font-weight: 600
+            font-style: normal
+            position: relative
+            margin-top: 90px
+            letter-spacing: 0.6px
+            &::after
+                content: ''
+                width: 29px
+                height: 2px
+                background: #42bfff
+                position: absolute
+                bottom: -42px
+                left: 0px
+                display: block
+    .partners-right-block
+        background: #0091fd
+        height: 537px
+        .partners__title
+            color: #ffffff
+            font-size: 28px
+            text-align: right
+            font-weight: 600
+            font-style: normal
+            position: relative
+            margin-top: 90px
+            letter-spacing: 0.6px
+            z-index: 3
+            &::after
+                content: ''
+                width: 29px
+                height: 2px
+                background: #40adff
+                position: absolute
+                bottom: -42px
+                right: 0px
+                display: block
+                z-index: 3
+
+    .partners-items-left
+        clear: both
+        overflow: hidden
+        margin-top: 108px
+        .partner-item
+            float: left
+            margin-right: 108px
+            margin-bottom: 92px
+            width: 105px
+            text-align: center
+            &.mb-0
+                margin-bottom: 0px
+
+    .partners-items-right
+        clear: both
+        overflow: hidden
+        margin-top: 108px
+        .partner-item
+            float: right
+            margin-right: 108px
+            margin-bottom: 92px
+            width: 105px
+            text-align: center
+            &.last
+                margin-right: 230px
+            &.mb-0
+                margin-bottom: 0px
+
+@media (min-width: 768px) and (max-width: 1439px)
+    .partners
+        .partners-items-left
+            float: left
+            .partner-item
+                float: left
+                margin-right: 0
+                margin-bottom: 25px
+                width: 50%
+                height: 75px
+                text-align: center
+                &:nth-child(2n+2)
+                    margin-right: 0px
+                img
+                    width: auto
+                    max-width: 90px
+        .partners-right-block
+            float: left
+            .partners-items-right
+                float: left
+            .partners__title
+                float: left
+                &::after
+                    left: 0px
+                    right: auto
+            .partner-item
+                float: left
+                margin-right: 0
+                margin-bottom: 25px
+                width: 50%
+                height: 75px
+                text-align: center
+                &:nth-child(2n+2)
+                    margin-right: 0px
+                img
+                    width: auto
+                    max-width: 90px
+@media (min-width: 320px) and (max-width: 767px)
+    .partners
+        .partners-items-left
+            float: left
+            .partner-item
+                float: left
+                margin-right: 0
+                margin-bottom: 25px
+                width: 50%
+                height: 75px
+                text-align: center
+                &:nth-child(2n+2)
+                    margin-right: 0px
+                img
+                    width: auto
+                    max-width: 90px
+        .partners-right-block
+            float: left
+            .partners-items-right
+                float: left
+            .partners__title
+                float: left
+                &::after
+                    left: 0px
+                    right: auto
+            .partner-item
+                float: left
+                margin-right: 0
+                margin-bottom: 25px
+                width: 50%
+                height: 75px
+                text-align: center
+                &:nth-child(2n+2)
+                    margin-right: 0px
+                img
+                    width: auto
+                    max-width: 90px

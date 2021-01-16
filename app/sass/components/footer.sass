@@ -1,11 +1,12 @@
 .footer
-    padding-top: 99px
-    padding-bottom: 30px
-    background: #f6f7fa
+    padding-top: 50px
+    padding-bottom: 50px
+    background: #ecfcff
 
     .company__title
-        font-size: 28px
+        font-size: 25px
         color: #27292c
+        font-family: 'Lato'
         text-align: left
         font-weight: 500
         font-style: normal
@@ -15,80 +16,85 @@
         list-style: none
         padding: 0px
         margin: 0px
-        margin-top: 0px
-        float: right
-        margin-top: 17px
+        float: none
+        margin-top: 50px
+        margin-bottom: 50px
+        display: flex
+        justify-content: space-between
         .company-item
-            float: left
-            margin-right: 104px
             &:last-child
                 margin-right: 0px
 
 
     .footer-bottom-panel
-        margin-top: 112px
-        border-top: 1px solid #eeeff2
+        border-top: 1px solid #d4f2f8
         .footer-copyright
-            color: #9c9da0
+            color: #a2cfec
             text-align: left
             float: left
-            font-size: 16px
+            font-size: 14px
             margin: 0
-            margin-top: 54px
+            margin-top: 70px
             letter-spacing: 0.35px
         .footer-copyright-phone
             display: none
-            color: #9c9da0
+            color: #a2cfec
             text-align: left
             float: left
-            font-size: 16px
+            font-size: 14px
             margin: 0
             margin-top: 54px
             letter-spacing: 0.35px
 
         .footer-request-btn
-            font-size: 13px
             color: #ffffff
-            text-transform: uppercase
             display: block
-            width: 220px
-            height: 60px
-            line-height: 66px
+            width: 275px
+            height: 85px
+            line-height: 85px
             text-decoration: none
             margin: 0px auto
-            text-align: center
+            text-align: left
             margin-top: 35px
-            border-radius: 3px
-            letter-spacing: 1.4px
+            border-radius: 5px
+            .btn__title
+                font-size: 18px
+                letter-spacing: 1.8px
+                font-weight: 600
+                padding-left: 40px
 
         .footer-policy
-            color: #9c9da0
+            color: #a2cfec
             text-align: right
             float: right
-            font-size: 16px
+            font-size: 14px
             margin: 0
-            margin-top: 54px
+            margin-top: 70px
             letter-spacing: 0.35px
             text-decoration: none
             border-bottom: 1px solid transparent
             transition: all 0.2s
             &:hover
-                border-bottom: 1px solid #9c9da0
+                border-bottom: 1px solid #a2cfec
 
-
-@media (max-width: 480px)
+@media (min-width: 768px) and (max-width: 1439px)
     .footer
         padding-top: 20px
         overflow: hidden
         .company-list
-            width: 500%
+            width: 100%
             float: left
+            display: flex
+            justify-content: space-between
             .company-item
                 float: left
+                width: 70px
+                .item__logo
+                    width: 100%
         .company__title
-            font-size: 18px
+            font-size: 32px
         .footer-bottom-panel
-            margin-top: 45px
+            margin-top: 0px
             .footer-request-btn
                 margin-top: 20px
             .footer-copyright
@@ -99,6 +105,44 @@
                 font-size: 14px
                 margin-bottom: 15px
                 margin-top: 35px
+                float: none
+            .footer-policy
+                text-align: center
+                float: none
+                font-size: 14px
+                margin: 0 auto
+                display: block
+
+
+@media (min-width: 320px) and (max-width: 767px)
+    .footer
+        padding-top: 20px
+        overflow: hidden
+        .company-list
+            width: 200%
+            float: left
+            display: flex
+            justify-content: space-between
+            .company-item
+                float: left
+                width: 70px
+                .item__logo
+                    width: 100%
+        .company__title
+            font-size: 32px
+        .footer-bottom-panel
+            margin-top: 0px
+            .footer-request-btn
+                margin-top: 20px
+            .footer-copyright
+                display: none
+            .footer-copyright-phone
+                display: block
+                text-align: center
+                font-size: 14px
+                margin-bottom: 15px
+                margin-top: 35px
+                float: none
             .footer-policy
                 text-align: center
                 float: none

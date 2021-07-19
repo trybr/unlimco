@@ -1,0 +1,89 @@
+.partners-pay-systems
+    position: relative
+    z-index: 1
+    padding-top: 80px
+    padding-bottom: 90px
+    background: #0092ff
+    &.section-partners
+        .section__title
+            color: #000000
+            font-size: 54px
+            text-align: center
+            font-weight: 600
+            font-style: normal
+            z-index: 2
+            margin-bottom: 100px
+    .partners-wave
+        background: url("../img/m-commerce/partners/waves-right.png") no-repeat
+        width: 480px
+        height: 504px
+        position: absolute
+        top: 0px
+        right: 0px
+        z-index: 3
+    .partners-title-block
+        &::after
+            content: ''
+            width: 50%
+            height: 100%
+            background: #14afff
+            position: absolute
+            left: 0px
+            top: 0px
+        &::before
+            content: ''
+            width: 50%
+            height: 100%
+            background: #0091fd
+            position: absolute
+            right: 0px
+            top: 0px
+    .partners-items
+        position: relative
+        z-index: 3
+        display: flex
+        justify-content: space-evenly
+        align-items: center
+        height: 100%
+        margin-bottom: 90px
+        .partner-item
+            text-align: center
+
+
+@media (min-width: 768px) and (max-width: 1280px)
+    .partners-pay-systems
+        padding-top: 75px
+        padding-bottom: 0px
+        &.section-partners
+            .section__title
+                margin-bottom: 30px
+                font-size: 32px
+                line-height: 45px
+
+        .partners-wave
+            display: none
+
+    
+        .partners-items
+            flex-direction: column
+            .partner-item
+                margin-bottom: 45px
+
+@media (min-width: 320px) and (max-width: 767px)
+    .partners-pay-systems
+        padding-top: 75px
+        padding-bottom: 0px
+        &.section-partners
+            .section__title
+                margin-bottom: 30px
+                font-size: 32px
+                line-height: 45px
+
+        .partners-wave
+            display: none
+
+    
+        .partners-items
+            flex-direction: column
+            .partner-item
+                margin-bottom: 45px

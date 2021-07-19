@@ -10,12 +10,11 @@ body
 	font-family: 'Gilroy' , sans-serif
 	background: #ffffff
 
-
-@media (min-width: 1200px)
+@media (max-width: 1900px)
 	.container 
 		max-width: 1440px
 
-@media (max-width: 1900px)
+@media (min-width: 1439px)
 	.container 
 		max-width: 1440px
 
@@ -36,15 +35,6 @@ body
 
 .main-wrapper
 	overflow: hidden
-
-#payForm
-    width: 378px
-    height: 798px
-    border: none
-    position: absolute
-    top: 40px
-    left: 42px
-    border-radius: 50px
 
 .services-phone
     position: absolute
@@ -67,6 +57,18 @@ body
 	background: url("../img/services-phone-circle.png")
 	background-repeat: no-repeat
 
+#payForm
+	width: 1218px
+	height: 765px
+	border: none
+	position: absolute
+	top: 40px
+	left: 42px
+	border-radius: 50px
+	width: 378px
+	height: 798px
+
+
 
 // components
 @import "_fonts.sass"
@@ -74,15 +76,6 @@ body
 @import "_libs.sass"
 @import "components/header.sass"
 @import "components/header-mass-payments.sass"
-@import "components/about.sass"
-@import "components/services.sass"
-@import "components/comparison.sass"
-@import "components/conversion.sass"
-@import "components/payment-directions.sass"
-@import "components/work-algorithm.sass"
-@import "components/about-inner.sass"
-@import "components/methods.sass"
-@import "components/faq.sass"
 @import "components/page-annotation.sass"
 
 @import "components/page-content.sass"
@@ -103,10 +96,45 @@ body
 @import "components/index-new/conversion.sass"
 @import "components/index-new/partners.sass"
 @import "components/index-new/about-new.sass"
-@import "components/index-new/footer.sass"
 
 // contacts
 @import "components/contacts-new/page-contacts.sass"
 
 // breadcrumbs
 @import "components/breadcrumbs.sass"
+
+// common
+@import "components/common/footer.sass"
+@import "components/common/questions.sass"
+
+// equaring
+@import "components/equaring/header.sass"
+@import "components/equaring/params.sass"
+@import "components/equaring/partners.sass"
+@import "components/equaring/advantages.sass"
+@import "components/equaring/payments.sass"
+@import "components/equaring/methods.sass"
+@import "components/equaring/payments-one-touch.sass"
+@import "components/equaring/security.sass"
+@import "components/equaring/lk.sass"
+@import "components/equaring/apps.sass"
+
+// mass payments
+@import "components/mass-payments/header.sass"
+@import "components/mass-payments/payment-directions-v2.sass"
+@import "components/mass-payments/work-algorithm.sass"
+@import "components/mass-payments/about.sass"
+@import "components/mass-payments/methods.sass"
+@import "components/mass-payments/faq.sass"
+
+// e-wallets
+@import "components/e-wallets/header.sass"
+@import "components/e-wallets/statistics.sass"
+@import "components/e-wallets/about.sass"
+@import "components/e-wallets/timing.sass"
+@import "components/e-wallets/partners.sass"
+
+// m-commerce
+@import "components/m-commerce/header.sass"
+@import "components/m-commerce/statistics.sass"
+@import "components/m-commerce/about.sass"

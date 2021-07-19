@@ -1,0 +1,309 @@
+{
+    "ru": {
+        "banner": {
+            "highlight": "E-commerce",
+            "title": "без границ выплаты на любые карты",
+            "description": "Принимайте платежи банковскими картами на своём сайте. С нами это просто, безопасно и без затрат на подключение! Автоматизированный сервис мгновенных денежных переводов на банковские карты, электронные кошельки и телефоны",
+            "req-btn": "Оставить заявку",
+            "reg-btn": "Регистрация"
+        },
+        "about": {
+            "title": "О нас",
+            "description": "Давно выяснено, что при оценке дизайна и композиции читаемый текст мешает сосредоточиться. Lorem Ipsum используют потому, что тот обеспечивает более или менее стандартное заполнение шаблона, а также реальное распределение букв и пробелов в абзацах, которое не получается при простой дубликации 'Здесь ваш текст.. Здесь ваш текст.. Здесь ваш текст..' Многие программы электронной вёрстки и редакторы HTML используют Lorem Ipsum в качестве текста по умолчанию, так что поиск по ключевым словам 'lorem ipsum' сразу показывает, как много веб-страниц прошедшие годы текст Lorem Ipsum получил много версий."
+        },
+        "services": {
+            "title": "Сервисы Unlimco",
+            "service": ["Интернет-Эквайринг", "Массовые выплаты", "Электронные кошельки", "Мобильная коммерция", "Бесконтакные платежи", "Криптовалютный эквайринг", "Антифрод и управление рисками", "Онлайн кассы"]
+        },
+        "comparison": {
+            "comparisonL": {
+                "title": "Интернет - эквайринг выгоднее, чем в банке",
+                "description": "Сравните доходность интернет-эквайринга Unlimco и банков",
+                "sliderTitle": "Сумма вашего месячного оборота"
+            },
+            "proceeds": {
+                "titleUs": "Ваша выручка с нами",
+                "titleBanks": "Ваша выручка с банками",
+                "commission": "Комиссия",
+                "conversion": "Конверсия форм",
+                "annotation": "Указанные комиссии являются примерными и ознакомительными."
+            },
+            "comparisonR": {
+                "title": "Прозрачные тарифы без скрытых комиссий",
+                "description": "Тариф для компаний с оборотом более 2 млн ₽ в месяц",
+                "button": "Определить свой тариф"
+            },
+            "table": {
+                "headerOptions": "Способы оплаты",
+                "headerCommission": "Комиссия",
+                "cards": "Банковские карты",
+                "eMoney": "Электронные деньги",
+                "cash": "Наличные",
+                "banking": "Интернет-банкинг",
+                "payments": "Выплаты на карты",
+                "prefix": "от"
+            },
+            "platformsTitle": "Работаем на платформах"
+        },
+        "servicesAdditional": {
+            "title": "Наши услуги",
+            "service": ["Автоплатежи (recurring)", "Оплата в один клик", "Восстановление счетов", "Прием платежей в чат ботах", "Escrow платежи", "Кастомизация платежных форм", "Split платежи", "Каскадный эквайринг"]
+        },
+        "conversion": {
+            "title": "Конверсия",
+            "description": "Автоматизированный сервис мгновенных денежных переводов на банковские карты",
+            "blockTitleOne": "Автоматизированный сервис мгновенных денежных переводов на банковские карты, электронные кошельки и телефоны",
+            "blockTitleTwo": "Используем лучшие и самые передовые технологии Антифрода c эффективностью предотвращения 99,9% мошеннических атак"
+        },
+        "companies": {
+            "title": "Мы работаем с такими компаниями, как:"
+        },
+        "footer": {
+            "copyright": "Copyright ©2020 ООО 'Интерактив Пейментс'.\n All rights reserved.",
+            "policy": "Политика конфиденциальности",
+            "req-btn": "Оставить заявку"
+        },
+        "popup": {
+            "agreementText": "Я соглашаюсь с условиями использования ресурсов unlimco.ru, политикой конфиденциальности, а также разрешаю ООО «Интерактив Пейментс»",
+            "agreementLink": "обрабатывать мои персональные данные",
+            "name": "Имя",
+            "phone": "Телефон",
+            "email": "Email",
+            "site": "Ваш сайт",
+            "btn": "Оставить заявку",
+            "title": "Наш менеджер свяжется с вами в ближайшее время."
+        },
+        "rates": {
+            "annotation": "*Итоговая ставка согласовывается индивидуально с каждым клиентом и зависит в том числе от выбранного банка-партнера."
+        },
+        "mp": {
+            "banner": {
+                "title": "Моментальные выплаты для ваших клиентов",
+                "description": "Принимайте платежи банковскими картами на своём сайте. С нами это просто, безопасно и без затрат на подключение! Автоматизированный сервис мгновенных денежных переводов на банковские карты, электронные кошельки и телефоны"
+            },
+            "pd": {
+                "title": "Направления выплат",
+                "text": "Все актуальные направления и виды начислений"
+            },
+            "pd-item-1": {
+                "title": "Мобильные приложения",
+                "text": "Давно выяснено, что при оценке дизайна и композиции читаемый текст мешает сосредоточиться. Lorem Ipsum используют"
+            },
+            "pd-item-2": {
+                "title": "Банковские карты",
+                "text": "Давно выяснено, что при оценке дизайна и композиции читаемый текст мешает сосредоточиться. Lorem Ipsum используют"
+            },
+            "pd-item-3": {
+                "title": "Электронные кошельки",
+                "text": "Давно выяснено, что при оценке дизайна и композиции читаемый текст мешает сосредоточиться. Lorem Ipsum используют"
+            },
+            "wa": {
+                "title": "Алгоритм работы",
+                "description": "Все шаги просты, логичны и прозрачны"
+            },
+            "wa-item-1": {
+                "title": "Описание проекта",
+                "description": "Давно выяснено, что при оценке дизайна и композиции читаемый текст мешает сосредоточиться. Lorem Ipsum"
+            },
+            "wa-item-2": {
+                "title": "Согласование комиссии",
+                "description": "Давно выяснено, что при оценке дизайна и композиции читаемый текст мешает сосредоточиться. Lorem Ipsum"
+            },
+            "wa-item-3": {
+                "title": "Выбор метода работы",
+                "description": "Давно выяснено, что при оценке дизайна и композиции читаемый текст мешает сосредоточиться. Lorem Ipsum"
+            },
+            "wa-item-4": {
+                "title": "Внесение платежа",
+                "description": "Давно выяснено, что при оценке дизайна и композиции читаемый текст мешает сосредоточиться. Lorem Ipsum"
+            },
+            "wa-item-5": {
+                "title": "Осуществеление выплат",
+                "description": "Давно выяснено, что при оценке дизайна и композиции читаемый текст мешает сосредоточиться. Lorem Ipsum"
+            },
+            "wa-item-6": {
+                "title": "Получение отчёта",
+                "description": "Давно выяснено, что при оценке дизайна и композиции читаемый текст мешает сосредоточиться. Lorem Ipsum"
+            },
+            "about": {
+                "title": "О нас",
+                "subTitle": "Техническая и юридическая надёжность",
+                "description": "Давно выяснено, что при оценке дизайна и композиции читаемый текст мешает сосредоточиться. Lorem Ipsum"
+            },
+            "methods": {
+                "title": "Методы взаимодействия",
+                "subTitle": "Выбор удобной модели взаимодействия с системой"
+            },
+            "method-item-1": {
+                "title": "Личный кабинет",
+                "description": "Давно выяснено, что при оценке дизайна и композиции читаемый текст мешает сосредоточиться. Lorem Ipsum"
+            },
+            "method-item-2": {
+                "title": "Реестр",
+                "description": "Давно выяснено, что при оценке дизайна и композиции читаемый текст мешает сосредоточиться. Lorem Ipsum"
+            },
+            "method-item-3": {
+                "title": "API Интеграция",
+                "description": "Давно выяснено, что при оценке дизайна и композиции читаемый текст мешает сосредоточиться. Lorem Ipsum"
+            },
+            "faq": {
+                "title": "FAQ",
+                "subtitle": "Ответы на часто задаваемые вопросы"
+            }
+        }
+    },
+
+    "en": {
+        "banner": {
+            "highlight": "E-commerce",
+            "title": "without limits of payments to any cards",
+            "description": "Accept payments by bank cards on your website. It's easy, safe and no connection costs with us!",
+            "req-btn": "Application",
+            "reg-btn": "Registration"
+        },
+        "about": {
+            "title": "About Us",
+            "description": "It has long been found that when evaluating design and composition, readable text interferes with concentration. Lorem Ipsum is used because it provides more or less standard filling of the template, as well as the real distribution of letters and spaces in paragraphs, which does not work with simple duplication 'Here is your text .. Here is your text .. Here is your text .. Many programs Layouts and HTML editors use Lorem Ipsum as their default text, so a search for 'lorem ipsum' immediately reveals how many web pages Lorem Ipsum text has received many versions over the years."
+        },
+        "services": {
+            "title": "Unlimco services",
+            "service": ["Internet Acquiring", "Mass Payouts", "Electronic Wallets", "Mobile Commerce", "Contactless Payments", "Cryptocurrency Acquiring", "Antifraud and Risk Management", "Online Cash desks"]
+        },
+        "comparison": {
+            "comparisonL": {
+                "title": "Internet acquiring is more profitable than at a bank",
+                "description": "Compare the profitability of Unlimco Internet acquiring and banks",
+                "sliderTitle": "The amount of your monthly turnover"
+            },
+            "proceeds": {
+                "titleUs": "Your proceeds with us",
+                "titleBanks": "Your proceeds with banks",
+                "commission": "Commission",
+                "conversion": "Form conversion",
+                "annotation": "These fees are indicative and indicative."
+            },
+            "comparisonR": {
+                "title": "Transparent rates with no hidden fees",
+                "description": "Tariff for companies with a turnover of more than 2 million rubles per month",
+                "button": "Determine your tariff"
+            },
+            "table": {
+                "headerOptions": "Payment Methods",
+                "headerCommission": "Commission",
+                "cards": "Bank cards",
+                "eMoney": "Electronic money",
+                "cash": "Cash",
+                "banking": "Internet banking",
+                "payments": "Payments to cards",
+                "prefix": "from"
+            },
+            "platformsTitle": "We work on platforms"
+        },
+        "servicesAdditional": {
+            "title": "Our services",
+            "service": ["Auto payments (recurring)", "One click payment", "Recovery of accounts", "Accepting payments in chat bots", "Escrow payments", "Payment form customization", "Split payments", "Cascade acquiring"]
+        },
+        "conversion": {
+            "title": "Conversion",
+            "description": "Automated service of instant money transfers to bank cards",
+            "blockTitleOne": "Automated service of instant money transfers to bank cards, e-wallets and phones",
+            "blockTitleTwo": "We use the best and most advanced Antifraud technologies with an efficiency of preventing 99.9% of fraudulent attacks"
+        },
+        "companies": {
+            "title": "We work with companies such as:"
+        },
+        "footer": {
+            "copyright": "Copyright ©2020 Interactive Payments LLC. All rights reserved.",
+            "policy": "Privacy policy",
+            "req-btn": "Application"
+        },
+        "popup": {
+            "agreementText": "I agree to the terms of use of the unlimco.ru resources, the privacy policy, and also authorize Interactive Payments LLC",
+            "agreementLink": "process my personal data",
+            "name": "Name",
+            "phone": "Phone",
+            "email": "Email",
+            "site": "Your site",
+            "btn": "Submit",
+            "title": "Our manager will contact you soon."
+        },
+        "rates": {
+            "annotation": "* The final rate is agreed individually with each client and also depends on the selected partner bank."
+        },
+        "mp": {
+            "banner": {
+                "title": "Instant payments for your clients",
+                "description": "Accept payments by bank cards on your website. It's easy, safe and no connection costs with us! Automated service of instant money transfers to bank cards, e-wallets and phones"
+            },
+            "pd": {
+                "title": "Payment directions",
+                "text": "All current directions and types of charges"
+            },
+            "pd-item-1": {
+                "title": "Mobile applications",
+                "text": "It has long been found that when evaluating design and composition, readable text interferes with concentration. Lorem Ipsum use"
+            },
+            "pd-item-2": {
+                "title": "Bank cards",
+                "text": "It has long been found that when evaluating design and composition, readable text interferes with concentration. Lorem Ipsum use"
+            },
+            "pd-item-3": {
+                "title": "Electronic wallets",
+                "text": "It has long been found that when evaluating design and composition, readable text interferes with concentration. Lorem Ipsum use"
+            },
+            "wa": {
+                "title": "Work algorithm",
+                "description": "All steps are simple, logical and transparent"
+            },
+            "wa-item-1": {
+                "title": "Project Description",
+                "description": "It has long been found that when evaluating design and composition, readable text interferes with concentration. Lorem Ipsum use"
+            },
+            "wa-item-2": {
+                "title": "Commission approval",
+                "description": "It has long been found that when evaluating design and composition, readable text interferes with concentration. Lorem Ipsum use"
+            },
+            "wa-item-3": {
+                "title": "Choice of working method",
+                "description": "It has long been found that when evaluating design and composition, readable text interferes with concentration. Lorem Ipsum use"
+            },
+            "wa-item-4": {
+                "title": "Making a payment",
+                "description": "It has long been found that when evaluating design and composition, readable text interferes with concentration. Lorem Ipsum use"
+            },
+            "wa-item-5": {
+                "title": "Making payments",
+                "description": "It has long been found that when evaluating design and composition, readable text interferes with concentration. Lorem Ipsum use"
+            },
+            "wa-item-6": {
+                "title": "Getting a report",
+                "description": "It has long been found that when evaluating design and composition, readable text interferes with concentration. Lorem Ipsum use"
+            },
+            "about": {
+                "title": "About us",
+                "subTitle": "Technical and legal reliability",
+                "description": "It has long been found that when evaluating design and composition, readable text interferes with concentration. Lorem Ipsum use"
+            },
+            "methods": {
+                "title": "Interaction methods",
+                "subTitle": "Choosing a convenient model of interaction with the system "
+            },
+            "method-item-1": {
+                "title": "Personal Area",
+                "description": "It has long been found that when evaluating design and composition, readable text interferes with concentration. Lorem Ipsum use"
+            },
+            "method-item-2": {
+                "title": "Registry",
+                "description": "It has long been found that when evaluating design and composition, readable text interferes with concentration. Lorem Ipsum use"
+            },
+            "method-item-3": {
+                "title": "API Integration",
+                "description": "It has long been found that when evaluating design and composition, readable text interferes with concentration. Lorem Ipsum use"
+            },
+            "faq": {
+                "title": "FAQ",
+                "subtitle": "Answers to frequently asked questions"
+            }
+        }
+    }
+}

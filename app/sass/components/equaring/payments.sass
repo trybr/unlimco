@@ -1,0 +1,111 @@
+.equaring-payments
+    padding-top: 75px
+    background: #22ded7
+    position: relative
+    .container
+        width: 1200px
+    .payments-yellow-bullets
+        background-image: url("data:image/svg+xml,%3Csvg width='169' height='86' viewBox='0 0 169 86' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Crect x='22.5977' y='65' width='11' height='17' rx='5.5' transform='rotate(38.5642 22.5977 65)' fill='%23FCE422'/%3E%3Crect x='10.5977' y='4' width='11' height='17' rx='5.5' transform='rotate(38.5642 10.5977 4)' fill='%23FCE422'/%3E%3Crect x='45.5977' width='11' height='17' rx='5.5' transform='rotate(38.5642 45.5977 0)' fill='%23FCE422'/%3E%3Crect x='68.5977' y='40' width='11' height='17' rx='5.5' transform='rotate(38.5642 68.5977 40)' fill='%23FCE422'/%3E%3Crect x='117.598' y='39' width='11' height='17' rx='5.5' transform='rotate(38.5642 117.598 39)' fill='%23FCE422'/%3E%3Crect x='159.598' y='8' width='11' height='17' rx='5.5' transform='rotate(38.5642 159.598 8)' fill='%23FCE422'/%3E%3C/svg%3E")
+        width: 169px
+        height: 86px
+        background-repeat: no-repeat
+        background-position: center center
+        position: absolute
+        top: 180px
+        left: 25px
+        z-index: 1
+        bottom: auto
+    .payments-circle
+        background: url("../img/equaring/payments/payments-circle.png") no-repeat
+        width: 245px
+        height: 731px
+        position: absolute
+        top: 250px
+        right: 0px
+        z-index: 0
+        bottom: auto
+    &.section-payments
+        .section__title
+            color: #000000
+            font-size: 54px
+            text-align: center
+            font-weight: 600
+            font-style: normal
+            line-height: 60px
+            margin-bottom: 45px
+        .section__text
+            color: #166d6a
+            font-size: 18px
+            text-align: center
+            font-weight: 500
+            font-style: normal
+            line-height: 30px
+            margin-bottom: 95px
+            
+    .payment-title
+        color: #ffffff
+        font-size: 20px
+        text-align: left
+        font-weight: 600
+        font-style: normal
+        line-height: 20px
+        margin-bottom: 45px
+        letter-spacing: 0.4px
+    .payment-description
+        color: #ffffff
+        font-size: 18px
+        text-align: left
+        font-weight: 300
+        font-style: normal
+        line-height: 25px
+        letter-spacing: 0.72px
+        padding-left: 50px
+        position: relative
+        margin-bottom: 95px
+        &::before
+            content: ''
+            width: 30px
+            height: 2px
+            background: #fbe321
+            display: block
+            position: absolute
+            top: 10px
+            left: 0px
+
+
+@media (min-width: 768px) and (max-width: 1280px)
+    .equaring-payments
+        .container
+            width: auto
+        .payments-yellow-bullets
+            display: none
+        .payments-circle
+            display: none
+        &.section-payments
+            .section__title
+                font-size: 32px
+                line-height: 45px
+                margin-bottom: 30px
+            .section__text
+                font-size: 18px
+                line-height: 30px
+                margin-bottom: 45px
+
+@media (min-width: 320px) and (max-width: 767px)
+    .equaring-payments
+        .container
+            width: auto
+        .payments-yellow-bullets
+            display: none
+        .payments-circle
+            display: none
+        &.section-payments
+            .section__title
+                font-size: 32px
+                line-height: 45px
+                margin-bottom: 30px
+            .section__text
+                font-size: 18px
+                line-height: 30px
+                margin-bottom: 45px
+            

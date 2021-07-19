@@ -1,15 +1,18 @@
 {
     "ru": {
+        "menu": ["Тарифы", "Как подключиться", "Контакты"],
         "banner": {
             "highlight": "E-commerce",
             "title": "без границ выплаты на любые карты",
-            "description": "Принимайте платежи банковскими картами на своём сайте. С нами это просто, безопасно и без затрат на подключение! Автоматизированный сервис мгновенных денежных переводов на банковские карты, электронные кошельки и телефоны",
+            "description": "Бесплатно подключите ваш сайт и принимайте платежи банковскими картами просто и безопасно уже сейчас! Воспользуйтесь автоматизированным сервисом мгновенных денежных переводов на банковские карты, электронные кошельки и телефоны.",
             "req-btn": "Оставить заявку",
             "reg-btn": "Регистрация"
         },
         "about": {
             "title": "О нас",
-            "description": "Давно выяснено, что при оценке дизайна и композиции читаемый текст мешает сосредоточиться. Lorem Ipsum используют потому, что тот обеспечивает более или менее стандартное заполнение шаблона, а также реальное распределение букв и пробелов в абзацах, которое не получается при простой дубликации 'Здесь ваш текст.. Здесь ваш текст.. Здесь ваш текст..' Многие программы электронной вёрстки и редакторы HTML используют Lorem Ipsum в качестве текста по умолчанию, так что поиск по ключевым словам 'lorem ipsum' сразу показывает, как много веб-страниц прошедшие годы текст Lorem Ipsum получил много версий."
+            "description": "Unlimco оказывает полный спектр услуг интернет-эквайринга для российских и зарубежных компаний, используя передовые финансовые и информационные технологии. Компания имеет собственные расчётные банки в Европе и Азии. Специалисты Unlimco — это команда единомышленников с многолетним опытом работы в банковской сфере, IT и FinTech отрасли. Наша цель — предоставить клиентам удобный, универсальный высокотехнологичный сервис, соответствующий мировым трендам развития электронной коммерции.",
+            "list": ["- Мы знаем, что требуется нашим клиентам сегодня и понимаем, что потребуется завтра;", "- Мы предлагаем решение, соответствующее вашим потребностям;", "- Мы гарантируем качество и надежность нашего решения."],
+            "description-2": "Только способствуя развитию онлайн-бизнеса наших клиентов, мы развиваем собственный успех."
         },
         "services": {
             "title": "Сервисы Unlimco",
@@ -47,19 +50,20 @@
         },
         "servicesAdditional": {
             "title": "Наши услуги",
-            "service": ["Автоплатежи (recurring)", "Оплата в один клик", "Восстановление счетов", "Прием платежей в чат ботах", "Escrow платежи", "Кастомизация платежных форм", "Split платежи", "Каскадный эквайринг"]
+            "service": ["Автоплатежи (recurring)", "Оплата в один клик", "Escrow платежи", "Кастомизация платежных форм", "Выставление счетов", "Прием платежей в чат ботах", "Split платежи", "Каскадный эквайринг"]
+        },
+        "companies": {
+            "partners": "Партнеры",
+            "clients": "Клиенты"
         },
         "conversion": {
             "title": "Конверсия",
-            "description": "Автоматизированный сервис мгновенных денежных переводов на банковские карты",
-            "blockTitleOne": "Автоматизированный сервис мгновенных денежных переводов на банковские карты, электронные кошельки и телефоны",
-            "blockTitleTwo": "Используем лучшие и самые передовые технологии Антифрода c эффективностью предотвращения 99,9% мошеннических атак"
-        },
-        "companies": {
-            "title": "Мы работаем с такими компаниями, как:"
+            "description": "Конверсия платежей — важнейший показатель для оценки интернет-эквайринга. Это процент успешно выполненных операций от общего числа транзакций.",
+            "blockTitleOne": "Средний показатель конверсии для процессинга Unlimco составляет 99,7%",
+            "blockTitleTwo": "Эффективность предотвращения мошеннических атак - 99,9%, благодаря использованию передовых Antifraud-технологий и специальных аналитических модулей."
         },
         "footer": {
-            "copyright": "Copyright ©2020 ООО 'Интерактив Пейментс'.\n All rights reserved.",
+            "copyright": "Copyright ©2020 ООО «Анлимко Групп». All rights reserved.",
             "policy": "Политика конфиденциальности",
             "req-btn": "Оставить заявку"
         },
@@ -78,47 +82,47 @@
         },
         "mp": {
             "banner": {
-                "title": "Моментальные выплаты для ваших клиентов",
-                "description": "Принимайте платежи банковскими картами на своём сайте. С нами это просто, безопасно и без затрат на подключение! Автоматизированный сервис мгновенных денежных переводов на банковские карты, электронные кошельки и телефоны"
+                "title": "Моментальные выплаты вашим клиентам",
+                "description": "В один клик: мгновенная выплата одному клиенту. В два клика: мгновенная выплата тысячам клиентов на все типы счетов за одну операцию. Удобное взаимодейсвие через Web-интерфейс или API"
             },
             "pd": {
-                "title": "Направления выплат",
-                "text": "Все актуальные направления и виды начислений"
+                "title": "Формы выплат",
+                "text": "Любые суммы и формы мгновенных массовых выплат"
             },
             "pd-item-1": {
-                "title": "Мобильные приложения",
-                "text": "Давно выяснено, что при оценке дизайна и композиции читаемый текст мешает сосредоточиться. Lorem Ipsum используют"
+                "title": "Банковские карты",
+                "text": "Пополнение счетов любых банковских карт VISA, MasterCard, МИР и других международных платежных систем."
             },
             "pd-item-2": {
-                "title": "Банковские карты",
-                "text": "Давно выяснено, что при оценке дизайна и композиции читаемый текст мешает сосредоточиться. Lorem Ipsum используют"
+                "title": "Электронные кошельки",
+                "text": "Пополнение счета WebMoney, Qiwi-Кошелёк, Яндекс.Деньги, PayPal, ЮMoney и других электронных кошельков."
             },
             "pd-item-3": {
-                "title": "Электронные кошельки",
-                "text": "Давно выяснено, что при оценке дизайна и композиции читаемый текст мешает сосредоточиться. Lorem Ipsum используют"
+                "title": "Мобильные телефоны",
+                "text": "Пополнение баланса мобильного телефона любого сотового оператора. Доступен сервис отправки клиенту sms-уведомления о начислении и деталях операции."
             },
             "wa": {
-                "title": "Алгоритм работы",
-                "description": "Все шаги просты, логичны и прозрачны"
+                "title": "Схема работы",
+                "description": "2 простых шага для начала работы + 2 клика для массовых выплат"
             },
             "wa-item-1": {
-                "title": "Описание проекта",
+                "title": "Согласование условий",
                 "description": "Давно выяснено, что при оценке дизайна и композиции читаемый текст мешает сосредоточиться. Lorem Ipsum"
             },
             "wa-item-2": {
-                "title": "Согласование комиссии",
-                "description": "Давно выяснено, что при оценке дизайна и композиции читаемый текст мешает сосредоточиться. Lorem Ipsum"
-            },
-            "wa-item-3": {
-                "title": "Выбор метода работы",
-                "description": "Давно выяснено, что при оценке дизайна и композиции читаемый текст мешает сосредоточиться. Lorem Ipsum"
-            },
-            "wa-item-4": {
                 "title": "Внесение платежа",
                 "description": "Давно выяснено, что при оценке дизайна и композиции читаемый текст мешает сосредоточиться. Lorem Ipsum"
             },
+            "wa-item-3": {
+                "title": "Осуществление выплат",
+                "description": "Давно выяснено, что при оценке дизайна и композиции читаемый текст мешает сосредоточиться. Lorem Ipsum"
+            },
+            "wa-item-4": {
+                "title": "Статистика и отчеты",
+                "description": "Давно выяснено, что при оценке дизайна и композиции читаемый текст мешает сосредоточиться. Lorem Ipsum"
+            },
             "wa-item-5": {
-                "title": "Осуществеление выплат",
+                "title": "Осуществление выплат",
                 "description": "Давно выяснено, что при оценке дизайна и композиции читаемый текст мешает сосредоточиться. Lorem Ipsum"
             },
             "wa-item-6": {
@@ -128,32 +132,43 @@
             "about": {
                 "title": "О нас",
                 "subTitle": "Техническая и юридическая надёжность",
-                "description": "Давно выяснено, что при оценке дизайна и композиции читаемый текст мешает сосредоточиться. Lorem Ipsum"
+                "text-1": "Сервис Unlimco предоставляет возможность массовых выплат по всем доступным направлениям с низкой комиссией.",
+                "text-2": "Применяемые нами технические решения обеспечивают мгновенное зачисление денежных средств при любых объемах выплат.",
+                "text-3": "Юридическая чистота и надежность при минимальных сроках согласования условий сотрудничества дают нам значительные конкурентные преимущества в условиях быстро растущего рынка электронных платежей.",
+                "text-4": "Все операции выполняются в полном соответствии с международными стандартами безопасности, установленными для передачи, хранения и обработки данных.",
+                "text-5": "Наши ведущие специалисты имеют многолетний профильный опыт работы в ведущих компаниях рынка электронной коммерции и транснациональных компаниях IT-отрасли.",
+                "text-6": "Надежность Unlimco как партнера подтверждается сотрудничеством с десятками предприятий, среди которых МФО, кэшбэк сервисы, службы такси, компании, реализующие бонусные программы, организации, использующие в работе аутстаффинг и аутсорсинг, и многие другие."
             },
             "methods": {
-                "title": "Методы взаимодействия",
-                "subTitle": "Выбор удобной модели взаимодействия с системой"
+                "title": "Взаимодействие с системой",
+                "subTitle": "Мы предлагаем три удобных способа взаимодействия. Выбирайте наиболее оптимальный для вас или используйте все!"
             },
             "method-item-1": {
-                "title": "Личный кабинет",
-                "description": "Давно выяснено, что при оценке дизайна и композиции читаемый текст мешает сосредоточиться. Lorem Ipsum"
+                "title": "Интеграция по API",
+                "description": "Интеграция с использованием API Unlimco позволяет полностью автоматизировать процессы осуществления выплат, получения информации о статусах операций и балансе вашего счета."
             },
             "method-item-2": {
-                "title": "Реестр",
-                "description": "Давно выяснено, что при оценке дизайна и композиции читаемый текст мешает сосредоточиться. Lorem Ipsum"
+                "title": "WEB-интерфейс",
+                "description": "Выплаты осуществляются в ручном режиме с использованием вашего Личного кабинета в Unlimco. Данные об актуальных статусах операций, результы обработки реестров, баланс счета и другая информация всегда доступны вам в режиме онлайн."
             },
             "method-item-3": {
-                "title": "API Интеграция",
-                "description": "Давно выяснено, что при оценке дизайна и композиции читаемый текст мешает сосредоточиться. Lorem Ipsum"
+                "title": "Реестры по email",
+                "description": "Реестр с данными получателей, временем и суммами выплат направляются в Unlimco по email. Наш специалист, выполняет загрузку реестров и контролирует их обработку."
             },
             "faq": {
                 "title": "FAQ",
                 "subtitle": "Ответы на часто задаваемые вопросы"
             }
+        },
+        "questions": {
+            "title": "Будем рады ответить на ваши вопросы:",
+            "write-us": "Написать нам",
+            "present": "Скачать презентацию"
         }
     },
 
     "en": {
+        "menu": ["Rates", "How to connect", "Contacts"],
         "banner": {
             "highlight": "E-commerce",
             "title": "without limits of payments to any cards",
@@ -162,8 +177,10 @@
             "reg-btn": "Registration"
         },
         "about": {
-            "title": "About Us",
-            "description": "It has long been found that when evaluating design and composition, readable text interferes with concentration. Lorem Ipsum is used because it provides more or less standard filling of the template, as well as the real distribution of letters and spaces in paragraphs, which does not work with simple duplication 'Here is your text .. Here is your text .. Here is your text .. Many programs Layouts and HTML editors use Lorem Ipsum as their default text, so a search for 'lorem ipsum' immediately reveals how many web pages Lorem Ipsum text has received many versions over the years."
+            "title": "About us",
+            "description": "Unlimco provides a full range of Internet acquiring services for Russian and foreign companies using advanced financial and information technologies. The company has its own settlement banks in Europe and Asia. Unlimco specialists are a team of like-minded people with many years of experience in the banking, IT and FinTech industries. Our goal is to provide our customers with a convenient, versatile high-tech service that meets global trends in the development of e-commerce.",
+            "list": ["- We know what our customers need today and understand what will be required tomorrow;", "- We offer a solution that meets your needs;", "- We guarantee the quality and reliability of our solution."],
+            "description-2": "Only by contributing to the development of our clients' online business, we develop our own success."
         },
         "services": {
             "title": "Unlimco services",
@@ -203,14 +220,15 @@
             "title": "Our services",
             "service": ["Auto payments (recurring)", "One click payment", "Recovery of accounts", "Accepting payments in chat bots", "Escrow payments", "Payment form customization", "Split payments", "Cascade acquiring"]
         },
+        "companies": {
+            "partners": "Partners",
+            "clients": "Clients"
+        },
         "conversion": {
             "title": "Conversion",
-            "description": "Automated service of instant money transfers to bank cards",
-            "blockTitleOne": "Automated service of instant money transfers to bank cards, e-wallets and phones",
-            "blockTitleTwo": "We use the best and most advanced Antifraud technologies with an efficiency of preventing 99.9% of fraudulent attacks"
-        },
-        "companies": {
-            "title": "We work with companies such as:"
+            "description": "Payment conversion is the most important indicator for evaluating Internet acquiring. This is the percentage of successful transactions out of the total number of transactions.",
+            "blockTitleOne": "The average conversion rate for Unlimco processing is 99.7%",
+            "blockTitleTwo": "The effectiveness of preventing fraudulent attacks is 99.9%, thanks to the use of advanced Antifraud technologies and special analytical modules."
         },
         "footer": {
             "copyright": "Copyright ©2020 Interactive Payments LLC. All rights reserved.",
@@ -232,78 +250,88 @@
         },
         "mp": {
             "banner": {
-                "title": "Instant payments for your clients",
-                "description": "Accept payments by bank cards on your website. It's easy, safe and no connection costs with us! Automated service of instant money transfers to bank cards, e-wallets and phones"
+                "title": "Instant payments to your clients",
+                "description": "One click: instant payout to one client. In two clicks: instant payment to thousands of clients on all types of accounts in one operation. Convenient interaction via Web interface or API"
             },
             "pd": {
-                "title": "Payment directions",
-                "text": "All current directions and types of charges"
+                "title": "Payment forms",
+                "text": "Any amounts and forms of instant massive payments"
             },
             "pd-item-1": {
-                "title": "Mobile applications",
-                "text": "It has long been found that when evaluating design and composition, readable text interferes with concentration. Lorem Ipsum use"
+                "title": "Bank cards",
+                "text": "Replenishment of accounts of any bank cards VISA, MasterCard, MIR and other international payment systems."
             },
             "pd-item-2": {
-                "title": "Bank cards",
-                "text": "It has long been found that when evaluating design and composition, readable text interferes with concentration. Lorem Ipsum use"
+                "title": "Electronic wallets",
+                "text": "Replenishment of WebMoney, Qiwi-Wallet, Yandex.Money, PayPal, YuMoney and other electronic wallets."
             },
             "pd-item-3": {
-                "title": "Electronic wallets",
-                "text": "It has long been found that when evaluating design and composition, readable text interferes with concentration. Lorem Ipsum use"
+                "title": "Cell phones",
+                "text": "Replenishment of the mobile phone balance of any mobile operator. A service is available for sending an SMS-notification to the client about the accrual and details of the operation."
             },
             "wa": {
-                "title": "Work algorithm",
-                "description": "All steps are simple, logical and transparent"
+                "title": "Scheme of work",
+                "description": "2 easy steps to get started + 2 clicks for massive payments"
             },
             "wa-item-1": {
-                "title": "Project Description",
-                "description": "It has long been found that when evaluating design and composition, readable text interferes with concentration. Lorem Ipsum use"
+                "title": "Negotiation of conditions",
+                "description": "Давно выяснено, что при оценке дизайна и композиции читаемый текст мешает сосредоточиться. Lorem Ipsum"
             },
             "wa-item-2": {
-                "title": "Commission approval",
-                "description": "It has long been found that when evaluating design and composition, readable text interferes with concentration. Lorem Ipsum use"
+                "title": "Making a payment",
+                "description": "Давно выяснено, что при оценке дизайна и композиции читаемый текст мешает сосредоточиться. Lorem Ipsum"
             },
             "wa-item-3": {
-                "title": "Choice of working method",
-                "description": "It has long been found that when evaluating design and composition, readable text interferes with concentration. Lorem Ipsum use"
+                "title": "Making payments",
+                "description": "Давно выяснено, что при оценке дизайна и композиции читаемый текст мешает сосредоточиться. Lorem Ipsum"
             },
             "wa-item-4": {
-                "title": "Making a payment",
-                "description": "It has long been found that when evaluating design and composition, readable text interferes with concentration. Lorem Ipsum use"
+                "title": "Statistics and reports",
+                "description": "Давно выяснено, что при оценке дизайна и композиции читаемый текст мешает сосредоточиться. Lorem Ipsum"
             },
             "wa-item-5": {
                 "title": "Making payments",
-                "description": "It has long been found that when evaluating design and composition, readable text interferes with concentration. Lorem Ipsum use"
+                "description": "Давно выяснено, что при оценке дизайна и композиции читаемый текст мешает сосредоточиться. Lorem Ipsum"
             },
             "wa-item-6": {
-                "title": "Getting a report",
-                "description": "It has long been found that when evaluating design and composition, readable text interferes with concentration. Lorem Ipsum use"
+                "title": "Receiving a report",
+                "description": "Давно выяснено, что при оценке дизайна и композиции читаемый текст мешает сосредоточиться. Lorem Ipsum"
             },
             "about": {
                 "title": "About us",
                 "subTitle": "Technical and legal reliability",
-                "description": "It has long been found that when evaluating design and composition, readable text interferes with concentration. Lorem Ipsum use"
+                "text-1": "The Unlimco service provides an opportunity for massive payments in all available directions with a low commission.",
+                "text-2": "The technical solutions we use ensure instant crediting of funds for any amount of payments.",
+                "text-3": "Legal purity and reliability with minimal terms of agreement on the terms of cooperation give us significant competitive advantages in the rapidly growing market of electronic payments.",
+                "text-4": "All operations are carried out in full compliance with international security standards established for the transmission, storage and processing of data.",
+                "text-5": "Our leading experts have many years of specialized experience in leading e-commerce companies and multinational companies in the IT industry.",
+                "text-6": "The reliability of Unlimco as a partner is confirmed by cooperation with dozens of enterprises, including MFIs, cashback services, taxi services, companies that implement bonus programs, organizations that use outstaffing and outsourcing in their work, and many others."
             },
             "methods": {
-                "title": "Interaction methods",
-                "subTitle": "Choosing a convenient model of interaction with the system "
+                "title": "Interaction with the system",
+                "subTitle": "We offer three convenient ways to interact. Choose the best one for you or use everything!"
             },
             "method-item-1": {
-                "title": "Personal Area",
-                "description": "It has long been found that when evaluating design and composition, readable text interferes with concentration. Lorem Ipsum use"
+                "title": "API Integration",
+                "description": "Integration using the Unlimco API allows you to fully automate the processes of making payments, obtaining information about the status of operations and your account balance."
             },
             "method-item-2": {
-                "title": "Registry",
-                "description": "It has long been found that when evaluating design and composition, readable text interferes with concentration. Lorem Ipsum use"
+                "title": "WEB interface",
+                "description": "Payments are made manually using your Personal Account in Unlimco. Data on the current statuses of operations, the results of processing registers, account balances and other information are always available to you online."
             },
             "method-item-3": {
-                "title": "API Integration",
-                "description": "It has long been found that when evaluating design and composition, readable text interferes with concentration. Lorem Ipsum use"
+                "title": "Registries by email",
+                "description": "The register with recipient data, time and amounts of payments is sent to Unlimco by email. Our specialist performs the loading of registers and controls their processing."
             },
             "faq": {
                 "title": "FAQ",
                 "subtitle": "Answers to frequently asked questions"
             }
+        },
+        "questions": {
+            "title": "We will be glad to answer your questions:",
+            "write-us": "Write to us",
+            "present": "Download presentation"
         }
     }
 }

@@ -38,36 +38,42 @@
     width: 225px
     height: 85px
     z-index: 1
-    .btn-icon
+    &::after
+        content: ''
+        background-image: url("data:image/svg+xml, %3Csvg width='20' height='13' viewBox='0 0 20 13' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cline x1='6.66086' y1='12.6326' x2='19.6609' y2='0.632598' stroke='white'/%3E%3Cline x1='0.66086' y1='12.6326' x2='13.6609' y2='0.632598' stroke='white'/%3E%3C/svg%3E")
+        background-repeat: no-repeat
+        background-position: center center
+        width: 20px
+        height: 13px
         position: absolute
         top: 32px
         right: 25px
-        opacity: 0.4
-        transition: all 0.2s
-    &:hover
-        .btn-icon
-            opacity: 0.6
+
 
 .registration-btn-new
     position: relative
     width: 256px
     height: 86px
     z-index: 1
-    .btn-icon
+    &::after
+        content: ''
+        background-image: url("data:image/svg+xml, %3Csvg class='btn-icon' width='20' height='13' viewBox='0 0 20 13' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cline x1='6.66086' y1='12.6326' x2='19.6609' y2='0.632598' stroke='white'/%3E%3Cline x1='0.66086' y1='12.6326' x2='13.6609' y2='0.632598' stroke='white'/%3E%3C/svg%3E")
+        background-repeat: no-repeat
+        background-position: center center
+        width: 20px
+        height: 13px
         position: absolute
-        top: 37px
-        right: 33px
-        opacity: 1
-        transition: all 0.2s
-    &:hover
-        .btn-icon
-            opacity: 1
+        top: 32px
+        right: 25px
 
 .tariff-btn
     position: relative
     z-index: 1
     .btn-icon
         position: absolute
+        background-image: url("data:image/svg+xml, %3Csvg width='8' height='16' viewBox='0 0 8 16' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0.333901 16C0.149828 16.0004 0.00034423 15.8449 5.17182e-07 15.6528C-0.000155716 15.5602 0.0350905 15.4713 0.0979274 15.4059L7.19515 8.0002L0.0979274 0.594513C-0.0324021 0.458506 -0.0324021 0.238012 0.0979274 0.102005C0.228257 -0.0340018 0.439546 -0.0340018 0.569876 0.102005L7.90242 7.75398C8.03253 7.88979 8.03253 8.10996 7.90242 8.2458L0.569876 15.8977C0.507382 15.9632 0.422454 16 0.333901 16Z' fill='white'/%3E%3C/svg%3E")
+        width: 8px
+        height: 16px
         top: 35px
         right: 40px
         opacity: 1
@@ -94,6 +100,9 @@
     z-index: 1
     .btn-icon
         position: absolute
+        background-image: url("data:image/svg+xml, %3Csvg width='20' height='13' viewBox='0 0 20 13' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cline x1='6.66086' y1='12.6326' x2='19.6609' y2='0.632598' stroke='white'/%3E%3Cline x1='0.66086' y1='12.6326' x2='13.6609' y2='0.632598' stroke='white'/%3E%3C/svg%3E")
+        width: 20px
+        height: 13px
         top: 37px
         right: 33px
         opacity: 1
@@ -107,6 +116,9 @@
     z-index: 1
     .btn-icon
         position: absolute
+        background-image: url("data:image/svg+xml, %3Csvg width='23' height='23' viewBox='0 0 23 23' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='11.5' cy='11.5' r='10.5' stroke='white' stroke-width='2'/%3E%3C/svg%3E")
+        width: 23px
+        height: 23px
         top: 32px
         right: 25px
         opacity: 0.4
@@ -217,6 +229,69 @@
             left: -6px
             background: darken(#a6d9ff, 1%)
 
+.btn-wrapper-blue-white
+    position: relative
+    &::after
+        content: ''
+        display: block
+        width: 420px
+        height: 86px
+        background: #4ab1ff
+        position: absolute
+        bottom: -4px
+        left: -4px
+        right: 0px
+        z-index: 0
+        border-radius: 5px
+        transition: all 0.2s
+    &:hover
+        &::after
+            bottom: -6px
+            left: -6px
+            background: darken(#4ab1ff, 1%)
+
+.btn-wrapper-ew
+    position: relative
+    &::after
+        content: ''
+        display: block
+        width: 250px
+        height: 86px
+        background: #4ab1ff
+        position: absolute
+        bottom: -4px
+        left: -4px
+        right: 0px
+        z-index: 0
+        border-radius: 5px
+        transition: all 0.2s
+    &:hover
+        &::after
+            bottom: -6px
+            left: -6px
+            background: darken(#4ab1ff, 1%)
+
+.btn-wrapper-integration
+    position: relative
+    &::after
+        content: ''
+        display: block
+        width: 250px
+        height: 86px
+        background: #4ab1ff
+        position: absolute
+        bottom: -4px
+        left: -4px
+        right: 0px
+        z-index: 0
+        border-radius: 5px
+        transition: all 0.2s
+    &:hover
+        &::after
+            bottom: -6px
+            left: -6px
+            background: darken(#4ab1ff, 1%)
+
 .btn-wrapper-brezee-new
     position: relative
     &::after
@@ -251,3 +326,10 @@
                 bottom: -6px
                 left: -6px
                 background: darken(#19d4cd, 1%)
+
+
+.btn-white
+	background: #ffffff
+
+.btn-white:hover
+    background: lighten(#ffffff, 5%)

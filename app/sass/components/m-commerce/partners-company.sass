@@ -1,0 +1,73 @@
+.partners-company
+    position: relative
+    z-index: 1
+    padding-top: 80px
+    padding-bottom: 90px
+    background: #14afff
+    overflow: hidden
+    &.section-partners
+        .section__title
+            color: #000000
+            font-size: 54px
+            text-align: center
+            font-weight: 600
+            font-style: normal
+            z-index: 2
+            margin-bottom: 100px
+    .partners-wave
+        background: url("../img/m-commerce/partners/waves-left.png") no-repeat
+        width: 480px
+        height: 504px
+        position: absolute
+        top: 0px
+        left: 0px
+        z-index: 3
+    .partners-items
+        position: relative
+        z-index: 3
+        display: flex
+        justify-content: space-evenly
+        align-items: center
+        height: 100%
+        .partner-item
+            text-align: center
+
+
+
+@media (min-width: 768px) and (max-width: 1280px)
+    .partners-company
+        padding-top: 75px
+        padding-bottom: 0px
+        &.section-partners
+            .section__title
+                margin-bottom: 30px
+                font-size: 32px
+                line-height: 45px
+
+        .partners-wave
+            display: none
+
+    
+        .partners-items
+            flex-direction: column
+            .partner-item
+                margin-bottom: 45px
+
+@media (min-width: 320px) and (max-width: 767px)
+    .partners-company
+        padding-top: 75px
+        padding-bottom: 0px
+        &.section-partners
+            .section__title
+                margin-bottom: 30px
+                font-size: 32px
+                line-height: 45px
+
+        .partners-wave
+            display: none
+
+    
+        .partners-items
+            flex-direction: column
+            .partner-item
+                margin-bottom: 45px

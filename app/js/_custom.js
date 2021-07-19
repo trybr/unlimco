@@ -1,75 +1,27 @@
-
-
-
 document.addEventListener("DOMContentLoaded", function(event) {
 
-	let windowPageYOffset = window.pageYOffset;
-	
-	const conversion = document.getElementById("conversion");
+	// SCROLL EVENT
+	document.addEventListener('aos:in', ({ detail }) => {
+		if (detail.getAttribute('data-aos-id') == "conversion") {
 
-	if (conversion) {
-		// COUNT 1
-		const convCountOneVal = document.getElementById("conversion-count-1").getAttribute('data-value');
-		const convCountOne = new CountUp('conversion-count-1', convCountOneVal, {
-			decimalPlaces: 1,
-			decimal: ","
-		});
+			// COUNTS
+			const convCountOneVal = document.getElementById("conversion-count-1").getAttribute('data-value');
+			const convCountOne = new CountUp('conversion-count-1', convCountOneVal, {
+				decimalPlaces: 1,
+				decimal: ","
+			});
+			convCountOne.start();
 
-		// COUNT 2
-		const convCountTwoVal = document.getElementById("conversion-count-2").getAttribute('data-value');
-		const convCountTwo = new CountUp('conversion-count-2', convCountTwoVal, {
-			decimalPlaces: 1,
-			decimal: ","
-		});
-
-		// CONVERSION ICON ANIMATION
-		const convBoxIcon = document.querySelector('.box-icon'),
-			  convArrow1 = document.querySelector('.box-arrow-1'),
-			  convArrow2 = document.querySelector('.box-arrow-2'),
-			  convComp1 = document.querySelector('.box-component-1'),
-			  convComp2 = document.querySelector('.box-component-2'),
-			  convComp3 = document.querySelector('.box-component-3');
-
-		// CONVERSION SCROLL
-		const conversionOffsetTop = document.getElementById("conversion").offsetTop - 400;
-
-		countsStart(windowPageYOffset, conversionOffsetTop, false);
-		window.addEventListener('scroll', function() {
-			windowPageYOffset = window.pageYOffset;
-			countsStart(windowPageYOffset, conversionOffsetTop ,false);
-		});
-
-		function countsStart(windowPageYOffset, conversionOffsetTop) {
-			if (windowPageYOffset >= conversionOffsetTop) {
-				if($(window).width() >= 1024) {
-					convBoxIcon.classList.add('animate__fadeInUp');
-					convBoxIcon.addEventListener('animationstart', () => {
-						convCountOne.start();
-						convCountTwo.start();
-						setTimeout(() => {
-							convComp1.classList.add('animate__fadeInUp');
-						}, 400);
-	
-						setTimeout(() => {
-							convComp2.classList.add('animate__fadeInUp');
-							convArrow1.classList.add('animate__fadeInLeft');
-						}, 550);
-	
-						setTimeout(() => {
-							convComp3.classList.add('animate__fadeInUp');
-							convArrow2.classList.add('animate__fadeInLeft');
-						}, 650);
-					});
-				} else {
-					convCountOne.start();
-					convCountTwo.start();
-				}
-			}
+			const convCountTwoVal = document.getElementById("conversion-count-2").getAttribute('data-value');
+			const convCountTwo = new CountUp('conversion-count-2', convCountTwoVal, {
+				decimalPlaces: 1,
+				decimal: ","
+			});
+			convCountTwo.start();
 		}
-		
-	}
+	});
 
-	//FANCYBOX
+	// FANCYBOX
 	$(".fancybox").fancybox();
 
 	// CLOSE FANCY
@@ -82,7 +34,6 @@ document.addEventListener("DOMContentLoaded", function(event) {
 
 	// PRICE SLIDER
 	const slider = document.getElementById('slider');
-
 	if (slider) {
 		noUiSlider.create(slider, {
 			start: 2000000,
@@ -144,17 +95,15 @@ document.addEventListener("DOMContentLoaded", function(event) {
 				const targetBtn = targetClosest.querySelector('.item-btn');
 				if (targetClosest.classList.contains('active')) {
 					targetClosest.classList.remove('active');
-					targetBtn.innerHTML = '+';
 				} else {
 					targetClosest.classList.add('active');
-					targetBtn.innerHTML = '-';
 				}
 			}
 	
 		});
 	}
 
-	// masked
+	// INPUT MASK
 	jQuery(function($){
 		$(".phone-field").mask("+7 (999) 99 99 999");
 	});
@@ -178,130 +127,47 @@ document.addEventListener("DOMContentLoaded", function(event) {
 	}
 
 	// COOKIES
-	// switch(Cookies.get('LANG')){
-	// 	case 'ru':
-	// 		changeLocaleService.loadLocale("ru"); 
-	// 		break;
-	// 	case 'en':
-	// 		changeLocaleService.loadLocale("en");
-	// 		break;
-	// 	default:
-	// 		break;
-	// }
-
-	// ANIMATION 1
-	if (document.getElementById("services-block-1")) {
-		const serviceItems1 = document.getElementById("services-block-1").querySelectorAll('.service-item'),
-			  servicesBlock1OffsetTop = document.getElementById("services-block-1").offsetTop - 200;
-			  
-		window.addEventListener('scroll', function() {
-			if (windowPageYOffset >= servicesBlock1OffsetTop) {
-				console.log("scroll 1");
-				for (let i = 0; i < serviceItems1.length; i++) {
-					let elementLines = serviceItems1[i].querySelector('.icon-lines'),
-						elementBg = serviceItems1[i].querySelector('.icon-bg'),
-						element = serviceItems1[i].querySelector('.item-icon');
-					setTimeout(() => {
-						element.classList.add('animate__bounceIn');
-						// serviceItems1[i].classList.add('animate__fadeIn');
-					}, i * 200);
-				}
-			}
-		});
-	}
-	
-
-	// ANIMATION 2
-	if (document.getElementById("services-block-2")) {
-		const serviceItems2 = document.getElementById("services-block-2").querySelectorAll('.service-item'),
-			  servicesBlock2OffsetTop = document.getElementById("services-block-2").offsetTop - 200;
-			  
-		window.addEventListener('scroll', function() {
-			if (windowPageYOffset >= servicesBlock2OffsetTop) {
-				for (let i = 0; i < serviceItems2.length; i++) {
-					let elementLines = serviceItems2[i].querySelector('.icon-lines'),
-						elementBg = serviceItems2[i].querySelector('.icon-bg'),
-						element = serviceItems2[i].querySelector('.item-icon');
-					setTimeout(() => {
-						element.classList.add('animate__bounceIn');
-						// serviceItems2[i].classList.add('animate__fadeIn');
-					}, i * 200);
-				}
-			}
-		});
+	switch(Cookies.get('LANG')){
+		case 'ru':
+			changeLocaleService.loadLocale("ru"); 
+			break;
+		case 'en':
+			changeLocaleService.loadLocale("en");
+			break;
+		default:
+			break;
 	}
 
 	// PARALLAX
 	if (document.getElementById("headerFigures")) {
-		var headerFigures = document.getElementById('headerFigures');
-		var	parallaxInstance = new Parallax(headerFigures, {
-			relativeInput: true
-		});
+		if($(window).width() >= 1024) {
+			var headerFigures = document.getElementById('headerFigures');
+			var	parallaxInstance = new Parallax(headerFigures, {
+				relativeInput: true
+			});
+		}
 	}
 
 	if (document.getElementById("headerFiguresNew")) {
-		var headerFiguresNew = document.getElementById('headerFiguresNew');
-		var	parallaxInstance = new Parallax(headerFiguresNew, {
-			relativeInput: true
-		});
-	}
-
-	// SCROLL ANIMATION
-	const services1OffsetTop = document.getElementById("services-block-new-1").offsetTop - 200,
-		  services2OffsetTop = document.getElementById("services-block-new-2").offsetTop - 200,
-		  serviceItems1New = document.getElementById("services-block-new-1").querySelectorAll('.service-item'),
-		  serviceItems2New = document.getElementById("services-block-new-2").querySelectorAll('.service-item'),
-		  aboutNew = document.getElementById("about-new").offsetTop - 400,
-		  aboutNewItems = document.getElementById("about-new").querySelectorAll('.about-payment-logo');
-
-	
-	animationNewStart();
-
-	window.addEventListener('scroll', function() {
-		animationNewStart();
-	});
-
-	function animationNewStart() {
-		if (windowPageYOffset >= services1OffsetTop) {
-			serviceItems1Animations();
-		}
-
-		if (windowPageYOffset >= services2OffsetTop) {
-			serviceItems2Animations();
-		}
-
-		if (windowPageYOffset >= aboutNew) {
-			aboutNewAnimation();
+		if($(window).width() >= 1024) {
+			var headerFiguresNew = document.getElementById('headerFiguresNew');
+			var	parallaxInstance = new Parallax(headerFiguresNew, {
+				relativeInput: true
+			});
 		}
 	}
 
-	function serviceItems1Animations() {
-		serviceItems1New.forEach(element => {
-			element.classList.add('animate__fadeInUp');
-		});
-	}
-
-	function serviceItems2Animations() {
-		serviceItems2New.forEach(element => {
-			element.classList.add('animate__fadeInUp');
-		});
-		if (document.querySelector('.services-phone-illustration')) {
-			document.querySelector('.services-phone-illustration').classList.add('animate__zoomIn');
+	if (document.getElementById("equaringHeaderFigures")) {
+		if($(window).width() >= 1024) {
+			var equaringHeaderFigures = document.getElementById('equaringHeaderFigures');
+			var	parallaxInstance = new Parallax(equaringHeaderFigures, {
+				relativeInput: true
+			});
 		}
-
-		if (document.querySelector('.services-phone')) {
-			document.querySelector('.services-phone').classList.add('animate__zoomIn');
-		}
-
-	}
-
-	function aboutNewAnimation() {
-		aboutNewItems.forEach(element => {
-			element.classList.add('animate__fadeInUp');
-		});
 	}
 
 
+	// IFRAME
 	if (document.getElementById("payForm")) {
 		// IFRAME FORM USERAGENT
 		function setUserAgent(window, userAgent) {
@@ -317,9 +183,27 @@ document.addEventListener("DOMContentLoaded", function(event) {
 			}
 		}
 		setUserAgent(document.getElementById('payForm').contentWindow, 'Mozilla/5.0 (Linux; U; Android 2.3.5; ru-ru; Philips W632 Build/GRJ90) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1');
-		document.getElementById('payForm').src = "https://pay.unlimco.io/8411242e-d846-45cf-ad4b-9e6b15583bbf";
+		document.getElementById('payForm').src = "https://pay.unlimco.io/8411242e-d846-45cf-ad4b-9e6b15583bbf/mobile";
 	}
-	
+
+	if (document.getElementById("lkPayForm")) {
+
+		// IFRAME FORM USERAGENT
+		function setUserAgent(window, userAgent) {
+			if (window.navigator.userAgent != userAgent) {
+				var userAgentProp = { get: function () { return userAgent; } };
+				try {
+					Object.defineProperty(window.navigator, 'userAgent', userAgentProp);
+				} catch (e) {
+					window.navigator = Object.create(navigator, {
+						userAgent: userAgentProp
+					});
+				}
+			}
+		}
+		setUserAgent(document.getElementById('lkPayForm').contentWindow, 'Mozilla/5.0 (Linux; U; Android 2.3.5; ru-ru; Philips W632 Build/GRJ90) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1');
+		document.getElementById('lkPayForm').src = "https://pay.unlimco.io/8411242e-d846-45cf-ad4b-9e6b15583bbf";
+	}
 
 
 });

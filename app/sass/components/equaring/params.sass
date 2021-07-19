@@ -1,0 +1,129 @@
+.equaring-params
+    padding-top: 75px
+    position: relative
+    z-index: 2
+    .container
+        position: relative
+    &.section-params
+        .section__title
+            color: #000000
+            font-size: 54px
+            text-align: center
+            font-weight: 600
+            font-style: normal
+            line-height: 60px
+            margin-bottom: 45px
+        .section__text
+            color: #0092ff
+            font-size: 18px
+            text-align: center
+            font-weight: 500
+            font-style: normal
+            line-height: 30px
+            margin-bottom: 95px
+
+    .green-bullets-left
+        position: absolute
+        left: -200px
+        top: 80px
+        background-image: url("data:image/svg+xml,%3Csvg width='169' height='86' viewBox='0 0 169 86' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Crect x='22.5977' y='65' width='11' height='17' rx='5.5' transform='rotate(38.5642 22.5977 65)' fill='%2321D6D3'/%3E%3Crect x='10.5977' y='4' width='11' height='17' rx='5.5' transform='rotate(38.5642 10.5977 4)' fill='%2321D6D3'/%3E%3Crect x='45.5977' width='11' height='17' rx='5.5' transform='rotate(38.5642 45.5977 0)' fill='%2321D6D3'/%3E%3Crect x='68.5977' y='40' width='11' height='17' rx='5.5' transform='rotate(38.5642 68.5977 40)' fill='%2321D6D3'/%3E%3Crect x='117.598' y='39' width='11' height='17' rx='5.5' transform='rotate(38.5642 117.598 39)' fill='%2321D6D3'/%3E%3Crect x='159.598' y='8' width='11' height='17' rx='5.5' transform='rotate(38.5642 159.598 8)' fill='%2321D6D3'/%3E%3C/svg%3E")
+        width: 169px
+        height: 86px
+        background-repeat: no-repeat
+        background-position: center center
+    .green-bullets-right
+        position: absolute
+        right: -200px
+        bottom: -50px
+        background-image: url("data:image/svg+xml,%3Csvg width='99' height='175' viewBox='0 0 99 175' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Crect x='76.3096' y='146.739' width='11' height='17' rx='5.5' transform='rotate(-55.9712 76.3096 146.739)' fill='%2321D6D3'/%3E%3Crect x='16.4492' y='163.524' width='11' height='17' rx='5.5' transform='rotate(-55.9712 16.4492 163.524)' fill='%2321D6D3'/%3E%3Crect x='9.69434' y='128.95' width='11' height='17' rx='5.5' transform='rotate(-55.9712 9.69434 128.95)' fill='%2321D6D3'/%3E%3Crect x='47.75' y='102.859' width='11' height='17' rx='5.5' transform='rotate(-55.9712 47.75 102.859)' fill='%2321D6D3'/%3E%3Crect x='42.8789' y='54.092' width='11' height='17' rx='5.5' transform='rotate(-55.9712 42.8789 54.092)' fill='%2321D6D3'/%3E%3Crect x='8.6543' y='14.6748' width='11' height='17' rx='5.5' transform='rotate(-55.9712 8.6543 14.6748)' fill='%2321D6D3'/%3E%3C/svg%3E")
+        width: 99px
+        height: 175px
+        background-repeat: no-repeat
+        background-position: center center
+
+    .param-title
+        color: #030303
+        font-size: 20px
+        text-align: left
+        font-weight: 600
+        font-style: normal
+        line-height: 20px
+        margin-bottom: 45px
+        letter-spacing: 0.4px
+    .param-description
+        color: #2f2f2f
+        font-size: 18px
+        text-align: left
+        font-weight: 300
+        font-style: normal
+        line-height: 25px
+        letter-spacing: 0.72px
+        padding-left: 50px
+        position: relative
+        margin-bottom: 95px
+        &::before
+            content: ''
+            width: 30px
+            height: 2px
+            background: #0092ff
+            display: block
+            position: absolute
+            top: 10px
+            left: 0px
+
+@media (min-width: 768px) and (max-width: 1280px)
+    .equaring-params
+        position: relative
+        z-index: 2
+        &.section-params
+            .section__title
+                margin-bottom: 30px
+                font-size: 32px
+                line-height: 45px
+            .section__text
+                font-size: 18px
+                line-height: 32px
+
+        .green-bullets-left
+            display: none
+        .green-bullets-right
+            display: none
+
+        .param-title
+            font-size: 20px
+            line-height: 32px
+        .param-description
+            font-size: 18px
+            line-height: 30px
+            margin-bottom: 95px
+            &::before
+                top: 15pxs
+
+@media (min-width: 320px) and (max-width: 767px)
+    .equaring-params
+        position: relative
+        z-index: 2
+        &.section-params
+            .section__title
+                margin-bottom: 30px
+                font-size: 32px
+                line-height: 45px
+            .section__text
+                font-size: 18px
+                line-height: 30px
+                margin-bottom: 45px
+
+        .green-bullets-left
+            display: none
+        .green-bullets-right
+            display: none
+
+        .param-title
+            font-size: 20px
+            line-height: 32px
+        .param-description
+            font-size: 18px
+            line-height: 32px
+            margin-bottom: 95px
+            &::before
+                top: 15px
